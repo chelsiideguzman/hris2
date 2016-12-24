@@ -13,4 +13,4 @@ To revise:
 To do:
 * put tooltips
 * fix dropdown
-* fix dropdown
+* alerts
