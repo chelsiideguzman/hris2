@@ -16,6 +16,12 @@
             <section class="row">
                 <?php include'h-sidenav.php' ?>
                 <article class="col-md-10 col-sm-10 p20">
+
+                    <div class="alert alert-success alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <strong>Well done!</strong> You successfully created a Job Vacancy.
+                    </div>
+
                     <div class="titleh">
                         <h3>Job Vacancies</h3>
                     </div>
@@ -99,7 +105,7 @@
                                     <td>Lorem ipsum</td>
                                     <td>Lorem ipsum</td>
                                     <td>Active</td>
-                                    <td><a data-toggle="modal" data-target="#editvacancy"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="deletemodal"><i class="fa fa-remove"></i></a></td>
+                                    <td><a data-toggle="modal" data-target="#editvacancy"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardvacancymodal"><i class="fa fa-remove"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
@@ -108,7 +114,7 @@
                                     <td>Lorem ipsum</td>
                                     <td>Lorem ipsum</td>
                                     <td>Inative</td>
-                                    <td><a data-toggle="modal" data-target="#editvacancy"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="deletemodal"><i class="fa fa-remove"></i></a></td>
+                                    <td><a data-toggle="modal" data-target="#editvacancy"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardvacancymodal"><i class="fa fa-remove"></i></a></td>
                                 </tr>
                             </tbody>
                         </table>

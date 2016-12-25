@@ -143,7 +143,9 @@
             <section class="row">
                 <article class="col-md-12 col-sm-12 p15020">
                     <div class="col-md-3 col-sm-12">
-                        <img src="img/vision.png" alt="" class="medimg">
+                      <div class="center-block">
+                        <img src="img/vision.png" alt="" class="medimg center">
+                      </div>
                         <h4 class="text-center">Vision</h4>
                         <hr />
                         <p class="text-center">
@@ -152,7 +154,7 @@
                     </div>
                     <div class="col-md-1 col-sm-12"></div>
                     <div class="col-md-8 col-sm-12">
-                        <img src="img/mission.png" alt="" class="medimg">
+                        <img src="img/mission.png" alt="" class="medimg center">
                         <h4 class="text-center">Mission</h4>
                         <hr />
                         <p class="text-justify">
@@ -168,7 +170,7 @@
                     <div class="row break">
                         <div class="col-md-4 col-sm-6">
                             <div class="card">
-                                <img class="card-img-top" src="img/food.jpg" alt="Card image cap" style="width: 100%; height: 180px;">
+<div class="restaurantimgcard"></div>
                                 <div class="card-block p20">
                                     <h4 class="card-title">Restaurant Name</h4>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -178,7 +180,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="card">
-                                <img class="card-img-top" src="img/food.jpg" alt="Card image cap" style="width: 100%; height: 180px;">
+                                <div class="restaurantimgcard"></div>
                                 <div class="card-block p20">
                                     <h4 class="card-title">Restaurant Name</h4>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -188,7 +190,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="card">
-                                <img class="card-img-top" src="img/food.jpg" alt="Card image cap" style="width: 100%; height: 180px;">
+                                <div class="restaurantimgcard"></div>
                                 <div class="card-block p20">
                                     <h4 class="card-title">Restaurant Name</h4>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

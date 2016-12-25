@@ -16,6 +16,12 @@
             <section class="row">
                 <?php include'e-sidenav.php' ?>
                 <article class="col-md-10 col-sm-10 p20">
+
+                  <div class="alert alert-success alert-dismissible" role="alert">
+                      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <strong>Well done!</strong> You successfully requested for a Certificate of Employment.
+                  </div>
+
                     <div class="titleh">
                         <h3>Certificate of Employment</h3>
                     </div>
@@ -43,7 +49,7 @@
                                     <td>Lorem ipsum</td>
                                     <td>Lorem ipsum</td>
                                     <td>Lorem ipsum</td>
-                                    <td><a data-toggle="modal" data-target="#editcoe"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="deletemodal"><i class="fa fa-remove"></i></a></td>
+                                    <td><a data-toggle="modal" data-target="#editcoe"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardformmodal"><i class="fa fa-remove"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td>Lorem ipsum</td>
@@ -51,7 +57,7 @@
                                     <td>Lorem ipsum</td>
                                     <td>Lorem ipsum</td>
                                     <td>Lorem ipsum</td>
-                                    <td><a data-toggle="modal" data-target="#editcoe"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="deletemodal"><i class="fa fa-remove"></i></a></td>
+                                    <td><a data-toggle="modal" data-target="#editcoe"><i class="fa fa-edit"></i></a> </td>
                                 </tr>
                                 <tr>
                                     <td>Lorem ipsum</td>
@@ -59,7 +65,7 @@
                                     <td>Lorem ipsum</td>
                                     <td>Lorem ipsum</td>
                                     <td>Lorem ipsum</td>
-                                    <td><a data-toggle="modal" data-target="#editcoe"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="deletemodal"><i class="fa fa-remove"></i></a></td>
+                                    <td><a data-toggle="modal" data-target="#editcoe"><i class="fa fa-edit"></i></a> </td>
                                 </tr>
                             </tbody>
                         </table>

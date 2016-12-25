@@ -18,6 +18,15 @@
                 <?php include'a-sidenav.php' ?>
                 <article class="col-md-10 col-sm-10 p20">
                     <div class="row">
+                      <div class="alert alert-success alert-dismissible" role="alert">
+                          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <strong>Well done!</strong> You successfully created a new access role.
+                      </div>
+                      <div class="alert alert-success alert-dismissible" role="alert">
+                          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <strong>Well done!</strong> You successfully customized the access role.
+                      </div>
+
                         <ul class="nav nav-tabs">
                             <li class="active"><a href="#recruitment" data-toggle="tab">Recruitment</a></li>
                             <li><a href="#employee" data-toggle="tab">Employee Management</a></li>
@@ -74,7 +83,7 @@
                                                 <td>Employee</td>
                                                 <td>Olivia Chua</td>
                                                 <td>Olivia Chua</td>
-                                                <td><a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#discardpersonmodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -148,7 +157,7 @@
                                                 <td>Olivia Chua</td>
                                                 <td>Olivia Chua</td>
                                                 <td>Olivia Chua</td>
-                                                <td><a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#discardpersonmodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -224,7 +233,7 @@
                                                 <td>Olivia Chua</td>
                                                 <td>Olivia Chua</td>
                                                 <td>Olivia Chua</td>
-                                                <td><a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#discardpersonmodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -300,7 +309,7 @@
                                                 <td>Olivia Chua</td>
                                                 <td>Olivia Chua</td>
                                                 <td>Olivia Chua</td>
-                                                <td><a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#discardpersonmodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -376,7 +385,7 @@
                                                 <td>o</td>
                                                 <td>Olivia Chua</td>
                                                 <td>Olivia Chua</td>
-                                                <td><a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#discardpersonmodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -452,7 +461,7 @@
                                                 <td>o</td>
                                                 <td>Olivia Chua</td>
                                                 <td>Olivia Chua</td>
-                                                <td><a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#discardpersonmodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -526,7 +535,7 @@
                                                 <td>o</td>
                                                 <td>Olivia Chua</td>
                                                 <td>Olivia Chua</td>
-                                                <td><a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#discardpersonmodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -600,7 +609,7 @@
                                                 <td>Admin</td>
                                                 <td>Olivia Chua</td>
                                                 <td>Olivia Chua</td>
-                                                <td><a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#discardpersonmodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>

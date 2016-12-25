@@ -15,6 +15,12 @@
             <section class="row">
                 <?php include'e-sidenav.php' ?>
                 <article class="col-md-10 col-sm-10 p20">
+
+                    <div class="alert alert-success alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <strong>Well done!</strong> You successfully updated your information.
+                    </div>
+
                   <div class="titleh">
                       <h3>Employee Self-Service</h3>
                   </div>

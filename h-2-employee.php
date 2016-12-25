@@ -16,6 +16,12 @@
             <section class="row">
                 <?php include'h-sidenav.php' ?>
                 <article class="col-md-10 col-sm-10 p20">
+
+                    <div class="alert alert-success alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <strong>Well done!</strong> You successfully created a new employee.
+                    </div>
+
                     <div class="titleh">
                         <h3>Employee List</h3>
                     </div>
@@ -103,7 +109,7 @@
                                             <p class="pull-right p10">
                                                 <a href="" data-toggle="modal" data-target="#verifyemployee"><i class="fa fa-external-link  "></i></a> &nbsp;
                                                 <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit  "></i></a> &nbsp;
-                                                <a href=""><i class="fa fa-remove  "></i></a>
+                                                <a href="" data-toggle="modal" data-target="#discardemployeemodal"><i class="fa fa-remove  "></i></a>
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -118,7 +124,7 @@
                                             <p class="pull-right p10">
                                                 <a href="" data-toggle="modal" data-target="#viewemployee"><i class="fa fa-external-link  "></i></a> &nbsp;
                                                 <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit  "></i></a> &nbsp;
-                                                <a href=""><i class="fa fa-remove  "></i></a>
+                                                <a href="" data-toggle="modal" data-target="#discardemployeemodal"><i class="fa fa-remove  "></i></a>
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -137,7 +143,7 @@
                                             <p class="pull-right p10">
                                                 <a href="" data-toggle="modal" data-target="#verifyemployee"><i class="fa fa-external-link  "></i></a> &nbsp;
                                                 <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit  "></i></a> &nbsp;
-                                                <a href=""><i class="fa fa-remove  "></i></a>
+                                                <a href="" data-toggle="modal" data-target="#discardemployeemodal"><i class="fa fa-remove  "></i></a>
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -152,7 +158,7 @@
                                             <p class="pull-right p10">
                                                 <a href="" data-toggle="modal" data-target="#viewemployee"><i class="fa fa-external-link  "></i></a> &nbsp;
                                                 <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit  "></i></a> &nbsp;
-                                                <a href=""><i class="fa fa-remove  "></i></a>
+                                                <a href="" data-toggle="modal" data-target="#discardemployeemodal"><i class="fa fa-remove  "></i></a>
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -171,7 +177,7 @@
                                             <p class="pull-right p10">
                                                 <a href="" data-toggle="modal" data-target="#verifyemployee"><i class="fa fa-external-link  "></i></a> &nbsp;
                                                 <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit  "></i></a> &nbsp;
-                                                <a href=""><i class="fa fa-remove  "></i></a>
+                                                <a href="" data-toggle="modal" data-target="#discardemployeemodal"><i class="fa fa-remove  "></i></a>
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -186,7 +192,7 @@
                                             <p class="pull-right p10">
                                                 <a href="" data-toggle="modal" data-target="#viewemployee"><i class="fa fa-external-link  "></i></a> &nbsp;
                                                 <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit  "></i></a> &nbsp;
-                                                <a href=""><i class="fa fa-remove  "></i></a>
+                                                <a href="" data-toggle="modal" data-target="#discardemployeemodal"><i class="fa fa-remove  "></i></a>
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>

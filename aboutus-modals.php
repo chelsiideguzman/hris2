@@ -1,3 +1,90 @@
+<!--Discard Restaurant Modal-->
+<div class="modal fade" id="discardrestaurantmodal" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title" id="myModalLabel">Discard Restaurant?</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row p20">
+                    <p class="text-muted">
+                        This will remove any restaurant information displayed in the HRIS website and the restaurant data presented in the system.
+                    </p>
+                </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="pull-right">
+                                <button type="submit" class="btn btn-primary">Cancel</button>
+                                <button type="button" class="btn btn-primary">Discard</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<!--Modal-->
+
+<!--Discard Department Modal-->
+<div class="modal fade bs-example-modal-sm" id="discarddepartmentmodal" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title" id="myModalLabel">Discard Department?</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row p20">
+                    <p class="text-muted">
+                        This will remove the departments listed in the system.
+                    </p>
+                </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="pull-right">
+                                <button type="submit" class="btn btn-primary">Cancel</button>
+                                <button type="button" class="btn btn-primary">Discard</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<!--Modal-->
+
+<!--Discard Job Title Modal-->
+<div class="modal fade bs-example-modal-sm" id="discardjobtitlemodal" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title" id="myModalLabel">Discard Job Title?</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row p20">
+                    <p class="text-muted">
+                        This will remove the job titles listed in the system.
+                    </p>
+                </div>                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="pull-right">
+                                <button type="submit" class="btn btn-primary">Cancel</button>
+                                <button type="button" class="btn btn-primary">Discard</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<!--Modal-->
+
+
 <!--About Us-->
 <!--Edit Mission and Vision Modal-->
 <div class="modal fade" id="editmissionvision" tabindex="-1" role="dialog" aria-labelledby="">

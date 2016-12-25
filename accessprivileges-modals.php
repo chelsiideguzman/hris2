@@ -1,3 +1,56 @@
+<!--Discard Role Modal-->
+<div class="modal fade bs-example-modal-sm" id="discardrolemodal" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header"></div>
+            <div class="modal-body">
+                <div class="row p20">
+                    <h4 class="text-muted">
+                        Discard role?
+                    </h4>
+                </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="pull-right">
+                                <button type="submit" class="btn btn-primary">Cancel</button>
+                                <button type="button" class="btn btn-primary">Discard</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<!--Modal-->
+
+<!--Discard Person Modal-->
+<div class="modal fade bs-example-modal-sm" id="discardpersonmodal" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header"></div>
+            <div class="modal-body">
+                <div class="row p20">
+                    <h4 class="text-muted">
+                        Discard access?
+                    </h4>
+                </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="pull-right">
+                                <button type="submit" class="btn btn-primary">Cancel</button>
+                                <button type="button" class="btn btn-primary">Discard</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<!--Modal-->
+
+
 <!--Access Privileges-->
 <!--New Role Recruitment Modal-->
 <div class="modal fade" id="newrolerecruitment" tabindex="-1" role="dialog" aria-labelledby="">

@@ -17,7 +17,7 @@
                 <article class="col-md-10 col-sm-10 p20">
                     <button type="button" name="button" class=" btn btn-primary btn-raised" onclick="goBack();"><i class="fa fa-chevron-left"></i>&nbsp; Back</button>
                     <div class="titleh">
-                        <h3>Employee Evaluation</h3>
+                        <h3>Employee Past Evaluations</h3>
                     </div>
                     <div class="tabletop">
                         <div class="text-left">

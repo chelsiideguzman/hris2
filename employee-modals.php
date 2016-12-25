@@ -1,3 +1,30 @@
+<!--Discard Employee Modal-->
+<div class="modal fade bs-example-modal-sm" id="discardemployeemodal" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header"></div>
+            <div class="modal-body">
+                <div class="row p20">
+                    <h4 class="text-muted">
+                        Discard employee?
+                    </h4>
+                </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="pull-right">
+                                <button type="submit" class="btn btn-primary">Cancel</button>
+                                <button type="button" class="btn btn-primary">Discard</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<!--Modal-->
+
+
 <!--Employee Management-->
 <!--Verify Employee Modal-->
 <div class="modal fade bs-example-modal-lg" id="verifyemployee" tabindex="-1" role="dialog" aria-labelledby="">

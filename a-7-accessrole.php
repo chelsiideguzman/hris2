@@ -18,6 +18,14 @@
                 <?php include'a-sidenav.php' ?>
                 <article class="col-md-10 col-sm-10 p20">
                     <div class="row">
+                      <div class="alert alert-success alert-dismissible" role="alert">
+                          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <strong>Well done!</strong> You successfully created a new role.
+                      </div>
+                      <div class="alert alert-success alert-dismissible" role="alert">
+                          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <strong>Well done!</strong> You successfully updated the access role.
+                      </div>
                         <ul class="nav nav-tabs">
                             <li class="active"><a href="#recruitment" data-toggle="tab">Recruitment</a></li>
                             <li><a href="#employee" data-toggle="tab">Employee Management</a></li>
@@ -53,28 +61,28 @@
                                                 <td>Applicant</td>
                                                 <td>Read</td>
                                                 <td>N/A</td>
-                                                <td><a data-toggle="modal" data-target="#editrolerecruitment"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editrolerecruitment"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>2</td>
                                                 <td>Employee</td>
                                                 <td>Read</td>
                                                 <td>Read</td>
-                                                <td><a data-toggle="modal" data-target="#editrolerecruitment"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editrolerecruitment"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>3</td>
                                                 <td>Human Resources</td>
                                                 <td>Create <br /> Read <br /> Update <br /> Delete </td>
                                                 <td>Create <br /> Read <br /> Update <br /> Delete </td>
-                                                <td><a data-toggle="modal" data-target="#editrolerecruitment"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editrolerecruitment"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>4</td>
                                                 <td>Admin</td>
                                                 <td>Create <br /> Read <br /> Update <br /> Delete </td>
                                                 <td>Create <br /> Read <br /> Update <br /> Delete </td>
-                                                <td><a data-toggle="modal" data-target="#editrolerecruitment"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editrolerecruitment"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -127,21 +135,21 @@
                                                 <td>Employee</td>
                                                 <td>Read</td>
                                                 <td>N/A</td>
-                                                <td><a data-toggle="modal" data-target="#editroleemployee"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleemployee"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>2</td>
                                                 <td>Human Resources</td>
                                                 <td>Read <br /> Update </td>
                                                 <td>Create <br /> Read <br /> Update <br /> Delete </td>
-                                                <td><a data-toggle="modal" data-target="#editroleemployee"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleemployee"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>3</td>
                                                 <td>Admin</td>
                                                 <td>Read <br /> Update </td>
                                                 <td>Create <br /> Read <br /> Update <br /> Delete </td>
-                                                <td><a data-toggle="modal" data-target="#editroleemployee"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleemployee"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -196,7 +204,7 @@
                                                 <td>Read</td>
                                                 <td>Create <br /> Read <br /> Update</td>
                                                 <td>Read</td>
-                                                <td><a data-toggle="modal" data-target="#editroleattendance"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleattendance"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>2</td>
@@ -204,7 +212,7 @@
                                                 <td>Read</td>
                                                 <td>Create <br /> Read <br /> Update</td>
                                                 <td>Create <br /> Read <br /> Update</td>
-                                                <td><a data-toggle="modal" data-target="#editroleattendance"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleattendance"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>3</td>
@@ -212,7 +220,7 @@
                                                 <td>Read</td>
                                                 <td>Create <br /> Read <br /> Update</td>
                                                 <td>Read <br /> Update</td>
-                                                <td><a data-toggle="modal" data-target="#editroleattendance"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleattendance"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>4</td>
@@ -220,7 +228,7 @@
                                                 <td>Read</td>
                                                 <td>Create <br /> Read <br /> Update</td>
                                                 <td>Read </td>
-                                                <td><a data-toggle="modal" data-target="#editroleattendance"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleattendance"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>5</td>
@@ -228,7 +236,7 @@
                                                 <td>Read</td>
                                                 <td>N/A</td>
                                                 <td>Read</td>
-                                                <td><a data-toggle="modal" data-target="#editroleattendance"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleattendance"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -283,7 +291,7 @@
                                                 <td>Read</td>
                                                 <td>N/A</td>
                                                 <td>N/A</td>
-                                                <td><a data-toggle="modal" data-target="#editrolepayroll"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editrolepayroll"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>2</td>
@@ -291,7 +299,7 @@
                                                 <td>Read <br /> Update</td>
                                                 <td>Read <br /> Update</td>
                                                 <td>N/A</td>
-                                                <td><a data-toggle="modal" data-target="#editrolepayroll"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editrolepayroll"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>3</td>
@@ -299,7 +307,7 @@
                                                 <td>Read <br /> Update</td>
                                                 <td>Read <br /> Update</td>
                                                 <td>Read <br /> Update</td>
-                                                <td><a data-toggle="modal" data-target="#editrolepayroll"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editrolepayroll"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -354,7 +362,7 @@
                                                 <td>Create <br /> Read <br /> Update <br /> Delete</td>
                                                 <td>Create <br /> Read <br /> Update <br /> Delete</td>
                                                 <td>Create <br /> Read <br /> Update <br /> Delete</td>
-                                                <td><a data-toggle="modal" data-target="#editroleforms"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleforms"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -409,7 +417,7 @@
                                                 <td>N/A</td>
                                                 <td>Read <br /> Update</td>
                                                 <td>Read <br /> Update</td>
-                                                <td><a data-toggle="modal" data-target="#editroleapprovals"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleapprovals"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>2</td>
@@ -417,7 +425,7 @@
                                                 <td>N/A</td>
                                                 <td>Read <br /> Update</td>
                                                 <td>Read <br /> Update</td>
-                                                <td><a data-toggle="modal" data-target="#editroleapprovals"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleapprovals"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>3</td>
@@ -425,7 +433,7 @@
                                                 <td>Read</td>
                                                 <td>Read</td>
                                                 <td>Read</td>
-                                                <td><a data-toggle="modal" data-target="#editroleapprovals"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleapprovals"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>4</td>
@@ -433,7 +441,7 @@
                                                 <td>Read</td>
                                                 <td>Read</td>
                                                 <td>Read</td>
-                                                <td><a data-toggle="modal" data-target="#editroleapprovals"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleapprovals"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -486,28 +494,28 @@
                                                 <td>User</td>
                                                 <td>Read</td>
                                                 <td>N/A</td>
-                                                <td><a data-toggle="modal" data-target="#editroleaboutus"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleaboutus"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>2</td>
                                                 <td>Employee</td>
                                                 <td>Read</td>
                                                 <td>N/A</td>
-                                                <td><a data-toggle="modal" data-target="#editroleaboutus"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleaboutus"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>3</td>
                                                 <td>Human Resources</td>
                                                 <td>Read</td>
                                                 <td>N/A</td>
-                                                <td><a data-toggle="modal" data-target="#editroleaboutus"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleaboutus"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>4</td>
                                                 <td>Admin</td>
                                                 <td>Read <br /> Update <br /> Delete</td>
                                                 <td>Create <br /> Read <br /> Update <br /> Delete</td>
-                                                <td><a data-toggle="modal" data-target="#editroleaboutus"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleaboutus"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -560,7 +568,7 @@
                                                 <td>Admin</td>
                                                 <td>Create <br />Read <br /> Update <br /> Delete</td>
                                                 <td>Create <br /> Read <br /> Update <br /> Delete</td>
-                                                <td><a data-toggle="modal" data-target="#editroleperformance"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#deletemodal"><i class="fa fa-remove"></i></a></td>
+                                                <td><a data-toggle="modal" data-target="#editroleperformance"><i class="fa fa-edit"></i></a> &nbsp; <a data-toggle="modal" data-target="#discardrolemodal"><i class="fa fa-remove"></i></a></td>
                                             </tr>
                                         </tbody>
                                     </table>

@@ -1,3 +1,55 @@
+<!--Discard Vacancy Modal-->
+<div class="modal fade bs-example-modal-sm" id="discardvacancymodal" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header"></div>
+            <div class="modal-body">
+                <div class="row p20">
+                    <h4 class="text-muted">
+                        Discard job vacancy?
+                    </h4>
+                </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="pull-right">
+                                <button type="submit" class="btn btn-primary">Cancel</button>
+                                <button type="button" class="btn btn-primary">Discard</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<!--Modal-->
+
+<!--Discard Candidate Modal-->
+<div class="modal fade bs-example-modal-sm" id="discardcandidatemodal" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header"></div>
+            <div class="modal-body">
+                <div class="row p20">
+                    <h4 class="text-muted">
+                        Discard job candidate?
+                    </h4>
+                </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="pull-right">
+                                <button type="submit" class="btn btn-primary">Cancel</button>
+                                <button type="button" class="btn btn-primary">Discard</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<!--Modal-->
+
 <!--Recruitment-->
 <!--New Vacancy Modal-->
 <div class="modal fade bs-example-modal-lg" id="newvacancy" tabindex="-1" role="dialog" aria-labelledby=" ">

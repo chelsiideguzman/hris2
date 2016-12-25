@@ -16,6 +16,13 @@
             <section class="row">
                 <?php include'h-sidenav.php' ?>
                 <article class="col-md-10 col-sm-10 p20">
+
+                    <div class="alert alert-success alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <strong>Well done!</strong> You successfully created a Job Candidate.
+                    </div>
+
+
                     <div class="titleh">
                         <h3>Job Candidates</h3>
                     </div>
@@ -101,7 +108,8 @@
                                     <td>Lorem ipsum</td>
                                     <td>Lorem ipsum</td>
                                     <td>New</td>
-                                    <td><a href="" data-toggle="modal" data-target="#viewcandidate"><i class="fa fa-external-link"></i></a> &nbsp; <a href="" data-toggle="modal" data-target="#editcandidate"><i class="fa fa-edit"></i></a> &nbsp; <a href=""><i class="fa fa-remove"></i></a></td>
+                                    <td><a href="" data-toggle="modal" data-target="#viewcandidate"><i class="fa fa-external-link"></i></a> &nbsp; <a href="" data-toggle="modal" data-target="#editcandidate"><i class="fa fa-edit"></i></a> &nbsp; <a href=""
+                                            data-toggle="modal" data-target="#discardcandidatemodal"><i class="fa fa-remove"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td>1</td>
@@ -111,7 +119,8 @@
                                     <td>Lorem ipsum</td>
                                     <td>Lorem ipsum</td>
                                     <td>Pending</td>
-                                    <td><a href="" data-toggle="modal" data-target="#viewcandidate"><i class="fa fa-external-link"></i></a> &nbsp; <a href="" data-toggle="modal" data-target="#editcandidate"><i class="fa fa-edit"></i></a> &nbsp; <a href=""><i class="fa fa-remove"></i></a></td>
+                                    <td><a href="" data-toggle="modal" data-target="#viewcandidate"><i class="fa fa-external-link"></i></a> &nbsp; <a href="" data-toggle="modal" data-target="#editcandidate"><i class="fa fa-edit"></i></a> &nbsp; <a href=""
+                                            data-toggle="modal" data-target="#discardcandidatemodal"><i class="fa fa-remove"></i></a></td>
                                 </tr>
                             </tbody>
                         </table>

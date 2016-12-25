@@ -15,6 +15,11 @@
             <section class="row">
                 <?php include'a-sidenav.php' ?>
                 <article class="col-md-10 col-sm-10 p20">
+                  <div class="alert alert-success alert-dismissible" role="alert">
+                      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <strong>Well done!</strong> You successfully evaluated an employee.
+                  </div>
+
                     <div class="titleh">
                         <h3>Employee List</h3>
                     </div>

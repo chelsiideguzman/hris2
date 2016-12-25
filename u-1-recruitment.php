@@ -40,6 +40,12 @@
         <section class="container-fluid">
             <section class="row featuresimagefull">
                 <article class="col-md-12 col-sm-12 p15020">
+
+                    <div class="alert alert-success alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <strong>Well done!</strong> You successfully applied for a job.
+                    </div>
+                    
                     <div class="card">
                         <div class="card-block">
                             <ul class="nav nav-tabs">
@@ -53,7 +59,9 @@
                                             <div class="servicecrewimg"></div>
                                         </div>
                                         <div class="col-md-5 col-sm-12">
-                                            <img src="img/servicecrew.png" alt="" class="bigimg">
+                                            <div class="center-block">
+                                                <img src="img/servicecrew.png" alt="" class="bigimg center">
+                                            </div>
                                             <h1 class="text-center">Join Us Now<br /> <small>Upload your Resume</small></h1>
                                             <form class="" action="" method="post">
 

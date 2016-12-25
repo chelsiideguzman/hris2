@@ -330,6 +330,7 @@
                                         <div class="tab-pane fade" role="tabpanel" id="complete">
                                             <h3>Complete</h3>
                                             <p>You have successfully applied for a job.</p>
+                                            <a href="u-1-recruitment.php" name="button" class=" btn btn-primary"><i class="fa fa-chevron-left"></i>&nbsp; Back</a>
                                         </div>
                                         <div class="clearfix"></div>
                                     </div>
