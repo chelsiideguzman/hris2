@@ -31,16 +31,16 @@
                                                 <div class="form-group label-floating" id="sandbox-container">
                                                     <label for="e-3-payroll-fromdate" class="control-label">From</label>
                                                     <div class="input-group">
-                                                        <input type="text" class="form-control " id="e-3-payroll-fromdate" name="e-2-timesheet-fromdate" />
+                                                        <input type="text" class="form-control " id="e-3-payroll-fromdate" name="e-3-payroll-fromdate" />
                                                         <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="p20">
                                                 <div class="form-group label-floating" id="sandbox-container">
-                                                    <label for="e-3-payroll-fromdate" class="control-label">To</label>
+                                                    <label for="e-3-payroll-todate" class="control-label">To</label>
                                                     <div class="input-group">
-                                                        <input type="text" class="form-control " id="e-3-payroll-todate" name="e-2-timesheet-todate" />
+                                                        <input type="text" class="form-control " id="e-3-payroll-todate" name="e-3-payroll-todate" />
                                                         <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                                     </div>
                                                 </div>
@@ -88,7 +88,7 @@
                         </table>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 col-sm-12">
                             <nav aria-label="Page navigation" class="text-center">
                                 <ul class="pagination">
                                     <li>

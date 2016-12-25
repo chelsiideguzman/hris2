@@ -43,7 +43,7 @@
                             <table style="width: 100%;">
                                 <tr>
                                     <td rowspan="2" style="width: 10%;" class="text-center">
-                                        <i class="fa fa-plus-circle payrollicon"></i>
+                                        <i class="fa fa-plus-circle"></i>
                                     </td>
                                     <td style="width: 40%;">
                                         <div class="form-group label-floating">
@@ -56,7 +56,7 @@
                                         </div>
                                     </td>
                                     <td rowspan="2" style="width: 10%;" class="text-center">
-                                        <i class="fa fa-minus-circle payrollicon"></i>
+                                        <i class="fa fa-minus-circle"></i>
                                     </td>
                                     <td style="width: 40%;">
                                         <div class="form-group label-floating">

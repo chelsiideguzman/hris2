@@ -13,7 +13,7 @@
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group label-floating">
                                 <label for="a-6-aboutus-mission" class="control-label">Mission</label>
-                                <textarea id="a-6-aboutus-mission" class="form-control"></textarea>
+                                <textarea id="a-6-aboutus-mission" class="form-control" name="a-6-aboutus-mission"></textarea>
                             </div>
                         </div>
                     </div>
@@ -21,7 +21,7 @@
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group label-floating">
                                 <label for="a-6-aboutus-vision" class="control-label">Vision</label>
-                                <textarea id="a-6-aboutus-vision" class="form-control"></textarea>
+                                <textarea id="a-6-aboutus-vision" class="form-control" name="a-6-aboutus-vision"></textarea>
                             </div>
                         </div>
                     </div>
@@ -44,8 +44,8 @@
 <!--Modal-->
 
 <!--New Restaurant Modal-->
-<div class="modal fade" id="newrestaurant" tabindex="-1" role="dialog" aria-labelledby="">
-    <div class="modal-dialog" role="document">
+<div class="modal fade bs-example-modal-lg" id="newrestaurant" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -56,38 +56,36 @@
                     <div class="row">
                         <div class="col-md-7 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="a-6-aboutus-restaurantname" class="control-label">Restaurant Name</label>
-                                <input type="text" class="form-control" id="a-6-aboutus-restaurantname" name="a-6-aboutus-restaurantname">
+                                <label for="a-6-aboutus-restaurantname1" class="control-label">Restaurant Name</label>
+                                <input type="text" class="form-control" id="a-6-aboutus-restaurantname1" name="a-6-aboutus-restaurantname1">
                             </div>
                         </div>
                         <div class="col-md-5 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="a-6-aboutus-branchcode" class="control-label">Branch Code</label>
-                                <input type="text" class="form-control" id="a-6-aboutus-branchcode" name="a-6-aboutus-branchcode">
+                                <label for="a-6-aboutus-branchcode1" class="control-label">Branch Code</label>
+                                <input type="text" class="form-control" id="a-6-aboutus-branchcode1" name="a-6-aboutus-branchcode1">
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="a-6-aboutus-description" class="control-label">Description</label>
-                                <textarea id="a-6-aboutus-description" class="form-control"></textarea>
+                                <label for="a-6-aboutus-description1" class="control-label">Description</label>
+                                <textarea id="a-6-aboutus-description1" class="form-control" name="a-6-aboutus-description1"></textarea>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12 col-sm-12">
+                        <div class="col-md-6 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="a-6-aboutus-location" class="control-label">Location</label>
-                                <input type="text" class="form-control" id="a-6-aboutus-location" name="a-6-aboutus-location">
+                                <label for="a-6-aboutus-location1" class="control-label">Location</label>
+                                <input type="text" class="form-control" id="a-6-aboutus-location1" name="a-6-aboutus-location1">
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
+                        <div class="col-md-6 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="a-6-aboutus-number" class="control-label">Reservations Number</label>
-                                <input type="text" class="form-control" id="a-6-aboutus-number" name="a-6-aboutus-number">
+                                <label for="a-6-aboutus-number1" class="control-label">Reservations Number</label>
+                                <input type="text" class="form-control" id="a-6-aboutus-number1" name="a-6-aboutus-number1">
                             </div>
                         </div>
                     </div>
@@ -100,7 +98,7 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="form-group label-floating" id="sandbox-container">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="a-6-aboutus-fromtime1" name="a-6-aboutus-fromtime1" />
+                                    <input type="text" class="form-control" id="a-6-aboutus-fromtime1n" name="a-6-aboutus-fromtime1n" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>to
                                 </div>
                             </div>
@@ -108,7 +106,7 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="form-group label-floating" id="sandbox-container">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="a-6-aboutus-totime1" name="a-6-aboutus-totime1" />
+                                    <input type="text" class="form-control" id="a-6-aboutus-totime1n" name="a-6-aboutus-totime1n" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                 </div>
                             </div>
@@ -123,7 +121,7 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="form-group label-floating" id="sandbox-container">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="a-6-aboutus-fromtime2" name="a-6-aboutus-fromtime2" />
+                                    <input type="text" class="form-control" id="a-6-aboutus-fromtime2n" name="a-6-aboutus-fromtime2n" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>to
                                 </div>
                             </div>
@@ -131,7 +129,7 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="form-group label-floating" id="sandbox-container">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="a-6-aboutus-totime2" name="a-6-aboutus-totime2" />
+                                    <input type="text" class="form-control" id="a-6-aboutus-totime2n" name="a-6-aboutus-totime2n" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                 </div>
                             </div>
@@ -146,7 +144,7 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="form-group label-floating" id="sandbox-container">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="a-6-aboutus-fromtime3" name="a-6-aboutus-fromtime3" />
+                                    <input type="text" class="form-control" id="a-6-aboutus-fromtime3n" name="a-6-aboutus-fromtime3n" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>to
                                 </div>
                             </div>
@@ -154,7 +152,7 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="form-group label-floating" id="sandbox-container">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="a-6-aboutus-totime3" name="a-6-aboutus-totime3" />
+                                    <input type="text" class="form-control" id="a-6-aboutus-totime3n" name="a-6-aboutus-totime3n" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                 </div>
                             </div>
@@ -163,7 +161,7 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group">
-                                <input type="file" id="a-1-aobutus-restaurantimage" multiple="">
+                                <input type="file" id="a-1-aboutus-restaurantimage1" name="a-1-aboutus-restaurantimage1" multiple="">
                                 <div class="input-group">
                                     <input type="text" readonly="" class="form-control" placeholder="Attach Image">
                                     <span class="input-group-btn input-group-sm">
@@ -194,8 +192,8 @@
 <!--Modal-->
 
 <!--Edit Restaurant Modal-->
-<div class="modal fade" id="editrestaurant" tabindex="-1" role="dialog" aria-labelledby="">
-    <div class="modal-dialog" role="document">
+<div class="modal fade bs-example-modal-lg" id="editrestaurant" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -206,30 +204,36 @@
                     <div class="row">
                         <div class="col-md-7 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="a-6-aboutus-restaurantname" class="control-label">Restaurant Name</label>
-                                <input type="text" class="form-control" id="a-6-aboutus-restaurantname" name="a-6-aboutus-restaurantname">
+                                <label for="a-6-aboutus-restaurantname2" class="control-label">Restaurant Name</label>
+                                <input type="text" class="form-control" id="a-6-aboutus-restaurantname2" name="a-6-aboutus-restaurantname2">
                             </div>
                         </div>
                         <div class="col-md-5 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="a-6-aboutus-branchcode" class="control-label">Branch Code</label>
-                                <input type="text" class="form-control" id="a-6-aboutus-branchcode" name="a-6-aboutus-branchcode">
+                                <label for="a-6-aboutus-branchcode2" class="control-label">Branch Code</label>
+                                <input type="text" class="form-control" id="a-6-aboutus-branchcode2" name="a-6-aboutus-branchcode2">
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="a-6-aboutus-description" class="control-label">Description</label>
-                                <textarea id="a-6-aboutus-description" class="form-control"></textarea>
+                                <label for="a-6-aboutus-description2" class="control-label">Description</label>
+                                <textarea id="a-6-aboutus-description2" class="form-control" name="a-6-aboutus-description2"></textarea>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12 col-sm-12">
+                        <div class="col-md-6 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="a-6-aboutus-location" class="control-label">Location</label>
-                                <input type="text" class="form-control" id="a-6-aboutus-location" name="a-6-aboutus-location">
+                                <label for="a-6-aboutus-location2" class="control-label">Location</label>
+                                <input type="text" class="form-control" id="a-6-aboutus-location2" name="a-6-aboutus-location2">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group label-floating">
+                                <label for="a-6-aboutus-number1" class="control-label">Reservations Number</label>
+                                <input type="text" class="form-control" id="a-6-aboutus-number1" name="a-6-aboutus-number1">
                             </div>
                         </div>
                     </div>
@@ -242,7 +246,7 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="form-group label-floating" id="sandbox-container">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="a-6-aboutus-fromtime1" name="a-6-aboutus-fromtime1" />
+                                    <input type="text" class="form-control" id="a-6-aboutus-fromtime1e" name="a-6-aboutus-fromtime1e" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>to
                                 </div>
                             </div>
@@ -250,7 +254,7 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="form-group label-floating" id="sandbox-container">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="a-6-aboutus-totime1" name="a-6-aboutus-totime1" />
+                                    <input type="text" class="form-control" id="a-6-aboutus-totime1e" name="a-6-aboutus-totime1e" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                 </div>
                             </div>
@@ -265,7 +269,7 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="form-group label-floating" id="sandbox-container">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="a-6-aboutus-fromtime2" name="a-6-aboutus-fromtime2" />
+                                    <input type="text" class="form-control" id="a-6-aboutus-fromtime2e" name="a-6-aboutus-fromtime2e" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>to
                                 </div>
                             </div>
@@ -273,7 +277,7 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="form-group label-floating" id="sandbox-container">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="a-6-aboutus-totime2" name="a-6-aboutus-totime2" />
+                                    <input type="text" class="form-control" id="a-6-aboutus-totime2e" name="a-6-aboutus-totime2e" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                 </div>
                             </div>
@@ -288,7 +292,7 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="form-group label-floating" id="sandbox-container">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="a-6-aboutus-fromtime3" name="a-6-aboutus-fromtime3" />
+                                    <input type="text" class="form-control" id="a-6-aboutus-fromtime3e" name="a-6-aboutus-fromtime3e" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>to
                                 </div>
                             </div>
@@ -296,7 +300,7 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="form-group label-floating" id="sandbox-container">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="a-6-aboutus-totime3" name="a-6-aboutus-totime3" />
+                                    <input type="text" class="form-control" id="a-6-aboutus-totime3e" name="a-6-aboutus-totime3e" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                 </div>
                             </div>
@@ -305,7 +309,7 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group">
-                                <input type="file" id="a-1-aobutus-restaurantimage" multiple="">
+                                <input type="file" id="a-1-aboutus-restaurantimage2" multiple="" name="a-1-aboutus-restaurantimage2">
                                 <div class="input-group">
                                     <input type="text" readonly="" class="form-control" placeholder="Attach Image">
                                     <span class="input-group-btn input-group-sm">
@@ -348,8 +352,8 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="a-6-aboutus-departmentname" class="control-label">Name</label>
-                                <input type="text" class="form-control" id="a-6-aboutus-departmentname" name="a-6-aboutus-departmentname">
+                                <label for="a-6-aboutus-departmentname1" class="control-label">Name</label>
+                                <input type="text" class="form-control" id="a-6-aboutus-departmentname1" name="a-6-aboutus-departmentname1">
                             </div>
                         </div>
                     </div>
@@ -384,8 +388,8 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="a-6-aboutus-departmentname" class="control-label">Name</label>
-                                <input type="text" class="form-control" id="a-6-aboutus-departmentname" name="a-6-aboutus-departmentname">
+                                <label for="a-6-aboutus-departmentname2" class="control-label">Name</label>
+                                <input type="text" class="form-control" id="a-6-aboutus-departmentname2" name="a-6-aboutus-departmentname2">
                             </div>
                         </div>
                     </div>
@@ -420,8 +424,8 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="a-6-aboutus-jobtitle" class="control-label">Job Title</label>
-                                <input type="text" class="form-control" id="a-6-aboutus-jobtitle" name="a-6-aboutus-jobtitle">
+                                <label for="a-6-aboutus-jobtitle1" class="control-label">Job Title</label>
+                                <input type="text" class="form-control" id="a-6-aboutus-jobtitle1" name="a-6-aboutus-jobtitle1">
                             </div>
                         </div>
                     </div>
@@ -456,8 +460,8 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="a-6-aboutus-jobtitle" class="control-label">Job Title</label>
-                                <input type="text" class="form-control" id="a-6-aboutus-jobtitle" name="a-6-aboutus-jobtitle">
+                                <label for="a-6-aboutus-jobtitle2" class="control-label">Job Title</label>
+                                <input type="text" class="form-control" id="a-6-aboutus-jobtitle2" name="a-6-aboutus-jobtitle2">
                             </div>
                         </div>
                     </div>

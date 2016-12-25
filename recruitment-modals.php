@@ -12,8 +12,8 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
                             <div class="form-group">
-                                <label for="nvdepartment">Department</label>
-                                <select id="nvdepartment" class="form-control" name="vacancydepartment">
+                                <label for="h-1-vacancies-department1">Department</label>
+                                <select id="h-1-vacancies-department1" class="form-control" name="h-1-vacancies-department1">
                                 <option>A</option>
                                 <option>B</option>
                             </select>
@@ -21,8 +21,8 @@
                         </div>
                         <div class="col-md-4 col-sm-4">
                             <div class="form-group">
-                                <label for="nvbranchname">Branch Name</label>
-                                <select id="nvbranchname" class="form-control" name="vacancybranchname">
+                                <label for="h-1-vacancies-branchname1">Branch Name</label>
+                                <select id="h-1-vacancies-branchname1" class="form-control" name="h-1-vacancies-branchname1">
                                 <option>A</option>
                                 <option>B</option>
                             </select>
@@ -30,8 +30,8 @@
                         </div>
                         <div class="col-md-4 col-sm-4">
                             <div class="form-group">
-                                <label for="nvstatus">Status</label>
-                                <select id="nvstatus" class="form-control" name="vacancystatus">
+                                <label for="h-1-vacancies-status1">Status</label>
+                                <select id="h-1-vacancies-status1" class="form-control" name="h-1-vacancies-status1">
                                 <option>Active</option>
                                 <option>Inactive</option>
                             </select>
@@ -41,22 +41,22 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating">
-                                <label for="jobtitle" class="control-label">Job Title</label>
-                                <input type="text" class="form-control" id="jobtitle" name="vacancyjobtitle" />
+                                <label for="h-1-vacancies-jobtitle1" class="control-label">Job Title</label>
+                                <input type="text" class="form-control" id="h-1-vacancies-jobtitle1" name="vh-1-vacancies-jobtitle1" />
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating">
-                                <label for="keywords" class="control-label">Key Words</label>
-                                <input type="text" class="form-control" id="keywords" name="vacancykeywords" />
+                                <label for="h-1-vacancies-keywords1" class="control-label">Key Words</label>
+                                <input type="text" class="form-control" id="h-1-vacancies-keywords1" name="h-1-vacancies-keywords1" />
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="title" class="control-label">Title of Job Vancancy</label>
-                                <input type="text" class="form-control" id="title" name="vacancytitle" />
+                                <label for="h-1-vacancies-title1" class="control-label">Title of Job Vancancy</label>
+                                <input type="text" class="form-control" id="h-1-vacancies-title1" name="h-1-vacancies-title1" />
                                 <p class="help-block">As seen in the job hunt page</code>
                                 </p>
                             </div>
@@ -65,18 +65,18 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating" id="sandbox-container">
-                                <label for="h-1-vacancy-fromdate1" class="control-label">Application Period From Date</label>
+                                <label for="h-1-vacancies-fromdate1" class="control-label">Application Period From Date</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="h-1-vacancy-fromdate1" name="applicationfrom" />
+                                    <input type="text" class="form-control" id="h-1-vacancies-fromdate1" name="h-1-vacancies-fromdate1" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating" id="sandbox-container">
-                                <label for="h-1-vacancy-todate1" class="control-label">Application Period To Date</label>
+                                <label for="h-1-vacancies-todate1" class="control-label">Application Period To Date</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="h-1-vacancy-todate1" name="applicationto" />
+                                    <input type="text" class="form-control" id="h-1-vacancies-todate1" name="h-1-vacancies-todate1" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                 </div>
                             </div>
@@ -85,16 +85,16 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="shortdesc" class="control-label">Short Description</label>
-                                <textarea id="shortdesc" class="form-control"></textarea>
+                                <label for="h-1-vacancies-shortdesc1" class="control-label">Short Description</label>
+                                <textarea id="h-1-vacancies-shortdesc1" class="form-control" name="h-1-vacancies-shortdesc1"></textarea>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="longdesc" class="control-label">Long Description</label>
-                                <textarea id="longdesc" class="form-control"></textarea>
+                                <label for="h-1-vacancies-longdesc1" class="control-label">Long Description</label>
+                                <textarea id="h-1-vacancies-longdesc1" class="form-control" name="h-1-vacancies-longdesc1"></textarea>
                             </div>
                         </div>
                     </div>
@@ -116,6 +116,7 @@
 </div>
 </div>
 <!--Modal-->
+
 <!--Edit Vacancy Modal-->
 <div class="modal fade bs-example-modal-lg" id="editvacancy" tabindex="-1" role="dialog" aria-labelledby=" ">
     <div class="modal-dialog modal-lg" role="document">
@@ -129,8 +130,8 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
                             <div class="form-group">
-                                <label for="evdepartment">Department</label>
-                                <select id="evdepartment" class="form-control" name="vacancydepartment">
+                                <label for="h-1-vacancies-department2">Department</label>
+                                <select id="h-1-vacancies-department2" class="form-control" name="h-1-vacancies-department2">
                                 <option>A</option>
                                 <option>B</option>
                             </select>
@@ -138,8 +139,8 @@
                         </div>
                         <div class="col-md-4 col-sm-4">
                             <div class="form-group">
-                                <label for="evbranchname">Branch Name</label>
-                                <select id="evbranchname" class="form-control" name="vacancybranchname">
+                                <label for="h-1-vacancies-branchname2">Branch Name</label>
+                                <select id="h-1-vacancies-branchname2" class="form-control" name="h-1-vacancies-branchname2">
                                 <option>A</option>
                                 <option>B</option>
                             </select>
@@ -147,8 +148,8 @@
                         </div>
                         <div class="col-md-4 col-sm-4">
                             <div class="form-group">
-                                <label for="evstatus">Status</label>
-                                <select id="evstatus" class="form-control" name="vacancystatus">
+                                <label for="h-1-vacancies-status2">Status</label>
+                                <select id="h-1-vacancies-status2" class="form-control" name="h-1-vacancies-status2">
                                 <option>Active</option>
                                 <option>Inactive</option>
                             </select>
@@ -158,22 +159,22 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating">
-                                <label for="vjobtitle" class="control-label">Job Title</label>
-                                <input type="text" class="form-control" id="vjobtitle" name="vacancyjobtitle" />
+                                <label for="h-1-vacancies-jobtitle2" class="control-label">Job Title</label>
+                                <input type="text" class="form-control" id="h-1-vacancies-jobtitle2" name="h-1-vacancies-jobtitle2" />
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating">
-                                <label for="keywords" class="control-label">Key Words</label>
-                                <input type="text" class="form-control" id="keywords" name="vacancykeywords" />
+                                <label for="h-1-vacancies-keywords2" class="control-label">Key Words</label>
+                                <input type="text" class="form-control" id="h-1-vacancies-keywords2" name="h-1-vacancies-keywords2" />
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="title" class="control-label">Title of Job Vancancy</label>
-                                <input type="text" class="form-control" id="title" name="vacancytitle" />
+                                <label for="h-1-vacancies-title2" class="control-label">Title of Job Vancancy</label>
+                                <input type="text" class="form-control" id="h-1-vacancies-title2" name="h-1-vacancies-title2" />
                                 <p class="help-block">As seen in the job hunt page</code>
                                 </p>
                             </div>
@@ -182,18 +183,18 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating" id="sandbox-container">
-                                <label for="h-1-vacancy-fromdate2" class="control-label">Application Period From Date</label>
+                                <label for="h-1-vacancies-fromdate2" class="control-label">Application Period From Date</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="h-1-vacancy-fromdate2" name="applicationfrom" />
+                                    <input type="text" class="form-control" id="h-1-vacancies-fromdate2" name="h-1-vacancies-fromdate2" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating" id="sandbox-container">
-                                <label for="h-1-vacancy-todate2" class="control-label">Application Period To Date</label>
+                                <label for="h-1-vacancies-todate2" class="control-label">Application Period To Date</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="h-1-vacancy-todate2" name="applicationto" />
+                                    <input type="text" class="form-control" id="h-1-vacancies-todate2" name="h-1-vacancies-todate2" />
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                 </div>
                             </div>
@@ -202,16 +203,16 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="shortdesc" class="control-label">Short Description</label>
-                                <textarea id="shortdesc" class="form-control"></textarea>
+                                <label for="h-1-vacancies-shortdesc2" class="control-label">Short Description</label>
+                                <textarea id="h-1-vacancies-shortdesc2" class="form-control" name="h-1-vacancies-shortdesc2"></textarea>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group label-floating">
-                                <label for="longdesc" class="control-label">Long Description</label>
-                                <textarea id="longdesc" class="form-control"></textarea>
+                                <label for="h-1-vacancies-longdesc2" class="control-label">Long Description</label>
+                                <textarea id="h-1-vacancies-longdesc2" class="form-control" name="h-1-vacancies-longdesc2"></textarea>
                             </div>
                         </div>
                     </div>
@@ -247,42 +248,42 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
                             <div class="form-group label-floating">
-                                <label for="fn" class="control-label">First Name</label>
-                                <input type="text" class="form-control" id="fn" name="candidatefirstname" />
+                                <label for="h-1-candidates-fn1" class="control-label">First Name</label>
+                                <input type="text" class="form-control" id="h-1-candidates-fn1" name="h-1-candidates-fn1" />
                             </div>
                         </div>
                         <div class="col-md-2 col-sm-2">
                             <div class="form-group label-floating">
-                                <label for="mi" class="control-label">MI</label>
-                                <input type="text" class="form-control" id="mi" name="candidatemiddleinitial" />
+                                <label for="h-1-candidates-mi1" class="control-label">MI</label>
+                                <input type="text" class="form-control" id="h-1-candidates-mi1" name="h-1-candidates-mi1" />
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating">
-                                <label for="ln" class="control-label">Last Name</label>
-                                <input type="text" class="form-control " id="ln" name="candidatelastname" />
+                                <label for="h-1-candidates-ln1" class="control-label">Last Name</label>
+                                <input type="text" class="form-control " id="h-1-candidates-ln1" name="h-1-candidates-ln1" />
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating">
-                                <label for="ccontactno" class="control-label">Contact Number</label>
-                                <input type="text" class="form-control" id="ccontactno" name="candidatecontactno" />
+                                <label for="h-1-candidates-contactno1" class="control-label">Contact Number</label>
+                                <input type="text" class="form-control" id="h-1-candidates-contactno1" name="h-1-candidates-contactno1" />
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating">
-                                <label for="cemailaddress" class="control-label">Email Addres</label>
-                                <input type="email" class="form-control" id="cemailaddress" name="candidateemailaddress" />
+                                <label for="h-1-candidates-email1" class="control-label">Email Addres</label>
+                                <input type="email" class="form-control" id="h-1-candidates-email1" name="h-1-candidates-email1" />
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
-                                <label for="ncgender">Gender</label>
-                                <select id="ncgender" class="form-control" name="candidategender">
+                                <label for="h-1-candidates-gender1">Gender</label>
+                                <select id="h-1-candidates-gender1" class="form-control" name="h-1-candidates-gender1">
                                         <option>Male</option>
                                         <option>Female</option>
                                 </select>
@@ -290,8 +291,8 @@
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
-                                <label for="nccity">City</label>
-                                <select id="nccity" class="form-control" name="candidatecity">
+                                <label for="h-1-candidates-city1">City</label>
+                                <select id="h-1-candidates-city1" class="form-control" name="h-1-candidates-city1">
                                     <option>A</option>
                                     <option>B</option>
                                 </select>
@@ -301,8 +302,8 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group">
-                                <label for="nc1stbranch">1st Branch Option</label>
-                                <select id="nc1stbranch" class="form-control" name="candidate1stbranch">
+                                <label for="h-1-candidates-1stbranch1">1st Branch Option</label>
+                                <select id="h-1-candidates-1stbranch1" class="form-control" name="h-1-candidates-1stbranch1">
                                         <option>A</option>
                                         <option>B</option>
                                     </select>
@@ -312,8 +313,8 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group">
-                                <label for="nc2ndbranch">2nd Branch Option</label>
-                                <select id="nc2ndbranch" class="form-control" name="candidate2ndbranch">
+                                <label for="h-1-candidates-2ndbranch1">2nd Branch Option</label>
+                                <select id="h-1-candidates-2ndbranch1" class="form-control" name="h-1-candidates-2ndbranch1">
                                         <option>A</option>
                                         <option>B</option>
                                     </select>
@@ -323,7 +324,7 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group">
-                                <input type="file" id="resume" multiple="">
+                                <input type="file" id="h-1-candidates-resume1" multiple="" name="h-1-candidates-resume1">
                                 <div class="input-group">
                                     <input type="text" readonly="" class="form-control" placeholder="Attach Resume">
                                     <span class="input-group-btn input-group-sm">
@@ -353,6 +354,7 @@
 </div>
 </div>
 <!--Modal-->
+
 <!--Edit Candidate Modal-->
 <div class="modal fade bs-example-modal-lg" id="editcandidate" tabindex="-1" role="dialog" aria-labelledby=" ">
     <div class="modal-dialog modal-lg" role="document">
@@ -366,42 +368,42 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
                             <div class="form-group label-floating">
-                                <label for="fn" class="control-label">First Name</label>
-                                <input type="text" class="form-control" id="fn" name="candidatefirstname" />
+                                <label for="h-1-candidates-fn2" class="control-label">First Name</label>
+                                <input type="text" class="form-control" id="h-1-candidates-fn2" name="h-1-candidates-fn2" />
                             </div>
                         </div>
                         <div class="col-md-2 col-sm-2">
                             <div class="form-group label-floating">
-                                <label for="mi" class="control-label">MI</label>
-                                <input type="text" class="form-control" id="mi" name="candidatemiddleinitial" />
+                                <label for="h-1-candidates-mi2" class="control-label">MI</label>
+                                <input type="text" class="form-control" id="h-1-candidates-mi2" name="h-1-candidates-mi2" />
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating">
-                                <label for="ln" class="control-label">Last Name</label>
-                                <input type="text" class="form-control " id="ln" name="candidatelastname" />
+                                <label for="h-1-candidates-ln2" class="control-label">Last Name</label>
+                                <input type="text" class="form-control " id="h-1-candidates-ln2" name="h-1-candidates-ln2" />
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating">
-                                <label for="ccontactno" class="control-label">Contact Number</label>
-                                <input type="text" class="form-control" id="ccontactno" name="candidatecontactno" />
+                                <label for="h-1-candidates-contactno2" class="control-label">Contact Number</label>
+                                <input type="text" class="form-control" id="h-1-candidates-contactno2" name="h-1-candidates-contactno2" />
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating">
-                                <label for="cemailaddress" class="control-label">Email Addres</label>
-                                <input type="email" class="form-control" id="cemailaddress" name="candidateemailaddress" />
+                                <label for="h-1-candidates-email2" class="control-label">Email Addres</label>
+                                <input type="email" class="form-control" id="h-1-candidates-email2" name="h-1-candidates-email2" />
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
-                                <label for="ecgender">Gender</label>
-                                <select id="ecgender" class="form-control" name="candidategender">
+                                <label for="h-1-candidates-gender2">Gender</label>
+                                <select id="h-1-candidates-gender2" class="form-control" name="h-1-candidates-gender2">
                                         <option>Male</option>
                                         <option>Female</option>
                                 </select>
@@ -409,8 +411,8 @@
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
-                                <label for="eccity">City</label>
-                                <select id="eccity" class="form-control" name="candidatecity">
+                                <label for="h-1-candidates-city2">City</label>
+                                <select id="h-1-candidates-city2" class="form-control" name="h-1-candidates-city2">
                                     <option>A</option>
                                     <option>B</option>
                                 </select>
@@ -420,8 +422,8 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group">
-                                <label for="ec1stbranch">1st Branch Option</label>
-                                <select id="ec1stbranch" class="form-control" name="candidate1stbranch">
+                                <label for="h-1-candidates-1stbranch2">1st Branch Option</label>
+                                <select id="h-1-candidates-1stbranch2" class="form-control" name="h-1-candidates-1stbranch2">
                                         <option>A</option>
                                         <option>B</option>
                                     </select>
@@ -431,8 +433,8 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group">
-                                <label for="ec2ndbranch">2nd Branch Option</label>
-                                <select id="ec2ndbranch" class="form-control" name="candidate2ndbranch">
+                                <label for="h-1-candidates-2ndbranch2">2nd Branch Option</label>
+                                <select id="h-1-candidates-2ndbranch2" class="form-control" name="h-1-candidates-2ndbranch2">
                                         <option>A</option>
                                         <option>B</option>
                                     </select>
@@ -442,7 +444,7 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-group">
-                                <input type="file" id="resume" multiple="">
+                                <input type="file" id="h-1-candidates-resume2" multiple="" name="h-1-candidates-resume2">
                                 <div class="input-group">
                                     <input type="text" readonly="" class="form-control" placeholder="Attach Resume">
                                     <span class="input-group-btn input-group-sm">
@@ -480,7 +482,7 @@
                 <h3 class="modal-title text-center" id="myModalLabel">Applicant Information</h3>
             </div>
             <div class="modal-body">
-                <form class="" action="index.html" method="post">
+                <form class="" action="" method="post">
                     <div class="row p20">
                         <p>
                             <span class="col-sm-4 labeltext">Applied For</span>

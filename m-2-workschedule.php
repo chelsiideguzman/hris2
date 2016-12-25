@@ -25,7 +25,7 @@
                         <div class="tabletopright pull-right">
                             <div class="dropdown">
                                 <button class="btn btn-primary btn-raised dropdown-toggle" type="button" id="advancedsearch" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Advanced Search &nbsp; <span class="caret"></span></button>
-                                <ul class="dropdown-menu" aria-labelledby="advancedsearch">
+                                <ul class="dropdown-menu col-md-12 col-sm-12" aria-labelledby="advancedsearch">
                                     <li>
                                         <form class="" action="" method="post">
                                             <div class="p20">

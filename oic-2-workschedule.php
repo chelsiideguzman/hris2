@@ -23,41 +23,9 @@
                         <div class="tabletopleft pull-left">
                         </div>
                         <div class="tabletopright pull-right">
-                            <div class="dropdown">
-                                <button class="btn btn-primary btn-raised dropdown-toggle" type="button" id="advancedsearch" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Advanced Search &nbsp; <span class="caret"></span></button>
-                                <ul class="dropdown-menu col-md-12 col-sm-12" aria-labelledby="advancedsearch">
-                                    <li>
-                                        <form class="" action="" method="post">
-                                            <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-3-workschedule-restaurant">Restaurant</label>
-                                                    <select id="h-3-workschedule-restaurant" class="form-control" name="h-3-workschedule-restaurant">
-                                                        <option>A</option>
-                                                        <option>B</option>
-                                                        <option>C</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-3-workschedule-crew">Crew</label>
-                                                    <select id="h-3-workschedule-crew" class="form-control" name="h-3-workschedule-crew">
-                                                        <option>Restaurant</option>
-                                                        <option>Kitchen</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="p20">
-                                                <button type="submit" name="button" class="btn btn-primary btn-raised btn-block">Search</button>
-                                            </div>
-                                        </form>
-                                    </li>
-                                </ul>
-                            </div>
-                            <span>You have searched for: <span><i>lorem ipsum</i></span></span>
                         </div>
                     </div>
-                    <div class="row p20">
+                    <div class="row p2030">
                         <table class="table table-responsive table-condensed table-hover">
                             <thead>
                                 <tr>
@@ -109,6 +77,14 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="pull-right">
+                                <button type="button" class="btn btn-primary btn-raised">Save</button>
+                                <button type="button" class="btn btn-primary btn-raised">Cancel</button>
+                            </div>
+                        </div>
                     </div>
 
                 </article>

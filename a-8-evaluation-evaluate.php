@@ -15,6 +15,7 @@
             <section class="row">
                 <?php include'a-sidenav.php' ?>
                 <article class="col-md-10 col-sm-10 p20">
+                    <button type="button" name="button" class=" btn btn-primary btn-raised" onclick="goBack();"><i class="fa fa-chevron-left"></i>&nbsp; Back</button>
                     <div class="titleh">
                         <h3>Employee Evaluation</h3>
                     </div>
@@ -141,7 +142,7 @@
                         </div>
                     </form>
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 col-sm-12">
                             <nav aria-label="Page navigation" class="text-center">
                                 <ul class="pagination">
                                     <li>

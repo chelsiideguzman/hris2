@@ -19,7 +19,7 @@
                         <h3>Work Schedule</h3>
                         <h4>Sandaya Yakiniku (October 28, 2016 - October 28, 2016)</h4>
                     </div>
-                    <div class="row p2030">
+                    <div class="row p20">
                         <table class="table table-responsive table-condensed table-hover">
                             <thead>
                                 <tr>

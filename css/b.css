@@ -57,11 +57,6 @@ a:hover {
     text-decoration: none;
 }
 
-* {
-    font-family: 'SourceSansPro', serif;
-}
-
-
 /* Navigation Bar */
 
 .navbar-brand {
@@ -156,20 +151,11 @@ a:hover {
     font-size: 70px;
 }
 
-.employeeicon {
-    font-size: 20px;
-}
-
-.payrolltable {
+.overflowxtable {
     overflow-x: scroll;
 
     width: 100%;
 }
-
-.payrollicon {
-    font-size: 25px;
-}
-
 .confirmation {
     height: 350px;
     vertical-align: middle;
@@ -187,7 +173,27 @@ a:hover {
   background-position: top center;
   background-size: cover;
 }
+/**/
+/* Icon */
+.sidenav i[class*='fa'] {
+font-size: 15px;
+}
+.sidenav i[class='material-icons'] {
+font-size: 18px;
+}
 
+table td i[class='fa fa-edit'],
+table td i[class='fa fa-remove'],
+table td i[class='fa fa-external-link'],
+i[class='fa fa-plus-circle'],
+i[class='fa fa-minus-circle'],
+.row-content i[class*='fa fa-external-link'],
+.row-content i[class*='fa fa-bar-chart-o'],
+.row-content i[class*='fa fa-edit'],
+.row-content i[class*='fa fa-remove'],
+i[class="fa fa-arrow-right"] {
+  font-size: 20px;
+}
 /**/
 
 

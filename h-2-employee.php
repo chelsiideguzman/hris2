@@ -21,31 +21,30 @@
                     </div>
                     <div class="tabletop clearfix">
                         <div class="tabletopleft pull-left">
-                            <br />
                             <button type="button" name="button" class="btn btn-primary btn-raised " data-toggle="modal" data-target="#newemployee">New Employee</button>
                         </div>
                         <div class="tabletopright pull-right">
                             <div class="dropdown">
                                 <button class="btn btn-primary btn-raised dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Advanced Search &nbsp; <span class="caret"></span></button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <ul class="dropdown-menu col-md-12 col-sm-12" aria-labelledby="dropdownMenu1">
                                     <li>
                                         <form class="" action="index.html" method="post">
                                             <div class="p20">
                                                 <div class="form-group label-floating">
-                                                    <label for="empeid" class="control-label">Employee ID</label>
-                                                    <input type="text" class="form-control" id="empeid" name="empeid" />
+                                                    <label for="h-2-employee-search-empid" class="control-label">Employee ID</label>
+                                                    <input type="text" class="form-control" id="h-2-employee-search-empid" name="h-2-employee-search-empid" />
                                                 </div>
                                             </div>
                                             <div class="p20">
                                                 <div class="form-group label-floating">
-                                                    <label for="empname" class="control-label">Name</label>
-                                                    <input type="text" class="form-control" id="empname" name="empname" />
+                                                    <label for="h-2-employee-search-name" class="control-label">Name</label>
+                                                    <input type="text" class="form-control" id="h-2-employee-search-name" name="h-2-employee-search-name" />
                                                 </div>
                                             </div>
                                             <div class="p20">
                                                 <div class="form-group">
-                                                    <label for="empjobtitle">Job Title</label>
-                                                    <select id="empjobtitle" class="form-control" name="empjobtitle">
+                                                    <label for="h-2-employee-search-jobtitle">Job Title</label>
+                                                    <select id="h-2-employee-search-jobtitle" class="form-control" name="h-2-employee-search-jobtitle">
                                                         <option>A</option>
                                                         <option>B</option>
                                                         <option>C</option>
@@ -54,8 +53,8 @@
                                             </div>
                                             <div class="p20">
                                                 <div class="form-group">
-                                                    <label for="empdepartment">Department</label>
-                                                    <select id="empdepartment" class="form-control" name="empdepartment">
+                                                    <label for="h-2-employee-search-department">Department</label>
+                                                    <select id="h-2-employee-search-department" class="form-control" name="h-2-employee-search-department">
                                                         <option>A</option>
                                                         <option>B</option>
                                                         <option>C</option>
@@ -64,8 +63,8 @@
                                             </div>
                                             <div class="p20">
                                                 <div class="form-group">
-                                                    <label for="empbranchname">Branch Name</label>
-                                                    <select id="empbranchname" class="form-control" name="empbranchname">
+                                                    <label for="h-2-employee-search-branchname">Branch Name</label>
+                                                    <select id="h-2-employee-search-branchname" class="form-control" name="h-2-employee-search-branchname">
                                                         <option>A</option>
                                                         <option>B</option>
                                                         <option>C</option>
@@ -74,10 +73,10 @@
                                             </div>
                                             <div class="p20">
                                                 <div class="form-group">
-                                                    <label for="empedits">All/Pending Edits</label>
-                                                    <select id="empedits" class="form-control" name="empedits">
-                                                        <option>Active</option>
-                                                        <option>Inactive</option>
+                                                    <label for="h-2-employee-search-pending">All/Pending Edits</label>
+                                                    <select id="h-2-employee-search-pending" class="form-control" name="h-2-employee-search-pending">
+                                                        <option>All </option>
+                                                        <option>Pending Edits</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -102,9 +101,9 @@
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="text-warning">2016000001</span></h4>
                                             <p class="pull-right p10">
-                                                <a href="" data-toggle="modal" data-target="#verifyemployee"><i class="fa fa-external-link employeeicon"></i></a> &nbsp;
-                                                <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit employeeicon"></i></a> &nbsp;
-                                                <a href=""><i class="fa fa-remove employeeicon"></i></a>
+                                                <a href="" data-toggle="modal" data-target="#verifyemployee"><i class="fa fa-external-link  "></i></a> &nbsp;
+                                                <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit  "></i></a> &nbsp;
+                                                <a href=""><i class="fa fa-remove  "></i></a>
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -117,9 +116,9 @@
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="">2016000001</span></h4>
                                             <p class="pull-right p10">
-                                                <a href="" data-toggle="modal" data-target="#viewemployee"><i class="fa fa-external-link employeeicon"></i></a> &nbsp;
-                                                <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit employeeicon"></i></a> &nbsp;
-                                                <a href=""><i class="fa fa-remove employeeicon"></i></a>
+                                                <a href="" data-toggle="modal" data-target="#viewemployee"><i class="fa fa-external-link  "></i></a> &nbsp;
+                                                <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit  "></i></a> &nbsp;
+                                                <a href=""><i class="fa fa-remove  "></i></a>
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -136,9 +135,9 @@
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="text-warning">2016000001</span></h4>
                                             <p class="pull-right p10">
-                                                <a href="" data-toggle="modal" data-target="#verifyemployee"><i class="fa fa-external-link employeeicon"></i></a> &nbsp;
-                                                <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit employeeicon"></i></a> &nbsp;
-                                                <a href=""><i class="fa fa-remove employeeicon"></i></a>
+                                                <a href="" data-toggle="modal" data-target="#verifyemployee"><i class="fa fa-external-link  "></i></a> &nbsp;
+                                                <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit  "></i></a> &nbsp;
+                                                <a href=""><i class="fa fa-remove  "></i></a>
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -151,9 +150,9 @@
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="">2016000001</span></h4>
                                             <p class="pull-right p10">
-                                                <a href="" data-toggle="modal" data-target="#viewemployee"><i class="fa fa-external-link employeeicon"></i></a> &nbsp;
-                                                <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit employeeicon"></i></a> &nbsp;
-                                                <a href=""><i class="fa fa-remove employeeicon"></i></a>
+                                                <a href="" data-toggle="modal" data-target="#viewemployee"><i class="fa fa-external-link  "></i></a> &nbsp;
+                                                <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit  "></i></a> &nbsp;
+                                                <a href=""><i class="fa fa-remove  "></i></a>
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -170,9 +169,9 @@
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="text-warning">2016000001</span></h4>
                                             <p class="pull-right p10">
-                                                <a href="" data-toggle="modal" data-target="#verifyemployee"><i class="fa fa-external-link employeeicon"></i></a> &nbsp;
-                                                <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit employeeicon"></i></a> &nbsp;
-                                                <a href=""><i class="fa fa-remove employeeicon"></i></a>
+                                                <a href="" data-toggle="modal" data-target="#verifyemployee"><i class="fa fa-external-link  "></i></a> &nbsp;
+                                                <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit  "></i></a> &nbsp;
+                                                <a href=""><i class="fa fa-remove  "></i></a>
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -185,9 +184,9 @@
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="">2016000001</span></h4>
                                             <p class="pull-right p10">
-                                                <a href="" data-toggle="modal" data-target="#viewemployee"><i class="fa fa-external-link employeeicon"></i></a> &nbsp;
-                                                <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit employeeicon"></i></a> &nbsp;
-                                                <a href=""><i class="fa fa-remove employeeicon"></i></a>
+                                                <a href="" data-toggle="modal" data-target="#viewemployee"><i class="fa fa-external-link  "></i></a> &nbsp;
+                                                <a href="" data-toggle="modal" data-target="#editemployee"><i class="fa fa-edit  "></i></a> &nbsp;
+                                                <a href=""><i class="fa fa-remove  "></i></a>
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -198,7 +197,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 col-sm-12">
                             <nav aria-label="Page navigation" class="text-center">
                                 <ul class="pagination">
                                     <li>

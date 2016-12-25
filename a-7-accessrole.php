@@ -18,7 +18,7 @@
                 <?php include'a-sidenav.php' ?>
                 <article class="col-md-10 col-sm-10 p20">
                     <div class="row">
-                        <ul class="nav nav-tabs" style="margin-bottom: 15px;">
+                        <ul class="nav nav-tabs">
                             <li class="active"><a href="#recruitment" data-toggle="tab">Recruitment</a></li>
                             <li><a href="#employee" data-toggle="tab">Employee Management</a></li>
                             <li><a href="#attendance" data-toggle="tab">Attendance Management</a></li>
@@ -80,7 +80,7 @@
                                     </table>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-12">
                                         <nav aria-label="Page navigation" class="text-center">
                                             <ul class="pagination">
                                                 <li>
@@ -147,7 +147,7 @@
                                     </table>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-12">
                                         <nav aria-label="Page navigation" class="text-center">
                                             <ul class="pagination">
                                                 <li>
@@ -234,7 +234,7 @@
                                     </table>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-12">
                                         <nav aria-label="Page navigation" class="text-center">
                                             <ul class="pagination">
                                                 <li>
@@ -305,7 +305,7 @@
                                     </table>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-12">
                                         <nav aria-label="Page navigation" class="text-center">
                                             <ul class="pagination">
                                                 <li>
@@ -360,7 +360,7 @@
                                     </table>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-12">
                                         <nav aria-label="Page navigation" class="text-center">
                                             <ul class="pagination">
                                                 <li>
@@ -439,7 +439,7 @@
                                     </table>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-12">
                                         <nav aria-label="Page navigation" class="text-center">
                                             <ul class="pagination">
                                                 <li>
@@ -513,7 +513,7 @@
                                     </table>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-12">
                                         <nav aria-label="Page navigation" class="text-center">
                                             <ul class="pagination">
                                                 <li>
@@ -566,7 +566,7 @@
                                     </table>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 col-sm-12">
                                         <nav aria-label="Page navigation" class="text-center">
                                             <ul class="pagination">
                                                 <li>

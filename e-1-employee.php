@@ -18,107 +18,107 @@
                   <div class="titleh">
                       <h3>Employee Self-Service</h3>
                   </div>
-                    <form class="row" method="post" action="">
+                    <form class="" method="post" action="">
                         <div class="row">
                             <div class="col-md-3 col-sm-4">
                                 <div class="form-group label-floating">
-                                    <label for="fn" class="control-label">First Name</label>
-                                    <input type="text" class="form-control  " id="fn" name="essfirstname" />
+                                    <label for="e-1-employee-fn" class="control-label">First Name</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-fn" name="e-1-employee-fn" />
                                 </div>
                             </div>
                             <div class="col-md-1 col-sm-1">
                                 <div class="form-group label-floating">
-                                    <label for="mi" class="control-label">MI</label>
-                                    <input type="text" class="form-control  " id="mi" name="essmiddleinitial" />
+                                    <label for="e-1-employee-mi" class="control-label">MI</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-mi" name="e-1-employee-mi" />
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-7">
+                            <div class="col-md-6 col-sm-7">
                                 <div class="form-group label-floating">
-                                    <label for="ln" class="control-label">Last Name</label>
-                                    <input type="text" class="form-control  " id="ln" name="esslastname" />
+                                    <label for="e-1-employee-ln" class="control-label">Last Name</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-ln" name="e-1-employee-ln" />
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-2 col-sm-3">
                                 <div class="form-group label-floating" id="sandbox-container">
-                                    <label for="bday" class="control-label">Birthday</label>
+                                    <label for="e-1-employee-bday" class="control-label">Birthday</label>
                                     <div class="input-group">
-                                        <input type="text" class="form-control  " id="bday" name="essbday" />
+                                        <input type="text" class="form-control  " id="e-1-employee-bday" name="e-1-employee-bday" />
                                         <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-sm-3">
+                            <div class="col-md-3 col-sm-3">
                                 <div class="form-group label-floating">
-                                    <label for="contactno" class="control-label">Contact Number</label>
-                                    <input type="text" class="form-control  " id="contactno" name="esscontactno" />
+                                    <label for="e-1-employee-contactno" class="control-label">Contact Number</label>
+                                    <input type="text" class="form-control" id="e-1-employee-contactno" name="e-1-employee-contactno" />
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
+                            <div class="col-md-5 col-sm-6">
                                 <div class="form-group label-floating">
-                                    <label for="email" class="control-label">Email Address</label>
-                                    <input type="email" class="form-control  " id="email" name="essemail" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6">
-                                <div class="form-group label-floating">
-                                    <label for="address1city" class="control-label">Address Line 1 (City)</label>
-                                    <input type="text" class="form-control  " id="address1city" name="essaddress1city" />
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="form-group label-floating">
-                                    <label for="address2city" class="control-label">Address Line 2 (City)</label>
-                                    <input type="text" class="form-control  " id="address2city" name="essaddress2city" />
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="form-group label-floating">
-                                    <label for="address3city" class="control-label">Address Line 3 (City)</label>
-                                    <input type="text" class="form-control  " id="address3city" name="essaddress3city" />
-                                </div>
-                            </div>
-                            <div class="col-md-1 col-sm-6">
-                                <div class="form-group label-floating">
-                                    <label for="zipcodecity" class="control-label">Zipcode</label>
-                                    <input type="text" class="form-control  " id="zipcodecity" name="esszipcodecity" />
+                                    <label for="e-1-employee-email" class="control-label">Email Address</label>
+                                    <input type="email" class="form-control" id="e-1-employee-email" name="e-1-employee-email" />
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-4 col-sm-6">
                                 <div class="form-group label-floating">
-                                    <label for="address1prov" class="control-label">Address Line 1 (Provincial)</label>
-                                    <input type="text" class="form-control  " id="address1prov" name="essaddress1prov" />
+                                    <label for="e-1-employee-address1city" class="control-label">Address Line 1 (City)</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-address1city" name="e-1-employee-address1city" />
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6">
                                 <div class="form-group label-floating">
-                                    <label for="address2prov" class="control-label">Address Line 2 (Provincial)</label>
-                                    <input type="text" class="form-control  " id="address2prov" name="essaddress2prov" />
+                                    <label for="e-1-employee-address2city" class="control-label">Address Line 2 (City)</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-address2city" name="e-1-employee-address2city" />
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="form-group label-floating">
-                                    <label for="address3prov" class="control-label">Address Line 3 (Provincial)</label>
-                                    <input type="text" class="form-control  " id="address3prov" name="essaddress3prov" />
+                                    <label for="e-1-employee-address3city" class="control-label">Address Line 3 (City)</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-address3city" name="e-1-employee-address3city" />
                                 </div>
                             </div>
                             <div class="col-md-1 col-sm-6">
                                 <div class="form-group label-floating">
-                                    <label for="zipcodeprov" class="control-label">Zipcode</label>
-                                    <input type="text" class="form-control  " id="zipcodeprov" name="esszipcodeprov" />
+                                    <label for="e-1-employee-zipcodecity" class="control-label">Zipcode</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-zipcodecity" name="e-1-employee-zipcodecity" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="form-group label-floating">
+                                    <label for="e-1-employee-address1prov" class="control-label">Address Line 1 (Provincial)</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-address1prov" name="e-1-employee-address1prov" />
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="form-group label-floating">
+                                    <label for="e-1-employee-address2prov" class="control-label">Address Line 2 (Provincial)</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-address2prov" name="e-1-employee-address2prov" />
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="form-group label-floating">
+                                    <label for="e-1-employee-address3prov" class="control-label">Address Line 3 (Provincial)</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-address3prov" name="e-1-employee-address3prov" />
+                                </div>
+                            </div>
+                            <div class="col-md-1 col-sm-6">
+                                <div class="form-group label-floating">
+                                    <label for="e-1-employee-zipcodeprov" class="control-label">Zipcode</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-zipcodeprov" name="e-1-employee-zipcodeprov" />
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-2 col-sm-3">
                                 <div class="form-group">
-                                    <label for="e-1-gender">Gender</label>
-                                    <select id="e-1-gender" class="form-control  " name="essgender">
+                                    <label for="e-1-employee-gender">Gender</label>
+                                    <select id="e-1-employee-gender" class="form-control" name="e-1-employee-gender">
                                     <option>Male</option>
                                     <option>Female</option>
                                 </select>
@@ -126,8 +126,8 @@
                             </div>
                             <div class="col-md-4 col-sm-4">
                                 <div class="form-group">
-                                    <label for="e-1-department">Department</label>
-                                    <select id="e-1-department" class="form-control  " name="essdepartment">
+                                    <label for="e-1-employee-department">Department</label>
+                                    <select id="e-1-employee-department" class="form-control  " name="e-1-employee-department">
                                     <option>A</option>
                                     <option>B</option>
                                     <option>C</option>
@@ -136,8 +136,8 @@
                             </div>
                             <div class="col-md-4 col-sm-5">
                                 <div class="form-group">
-                                    <label for="e-1-branchname">Branch Name</label>
-                                    <select id="e-1-branchname" class="form-control  " name="essbranchname">
+                                    <label for="e-1-employee-branchname">Branch Name</label>
+                                    <select id="e-1-employee-branchname" class="form-control  " name="e-1-employee-branchname">
                                     <option>A</option>
                                     <option>B</option>
                                     <option>C</option>
@@ -148,66 +148,68 @@
                         <div class="row">
                             <div class="col-md-2 col-sm-3">
                                 <div class="form-group label-floating">
-                                    <label for="pagibig" class="control-label">Pag-ibig Fund</label>
-                                    <input type="text" class="form-control  " id="pagibig" name="esspagibig" />
+                                    <label for="e-1-employee-pagibig" class="control-label">Pag-ibig Fund</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-pagibig" name="e-1-employee-pagibig" />
                                 </div>
                             </div>
                             <div class="col-md-2 col-sm-3">
                                 <div class="form-group label-floating">
-                                    <label for="sss" class="control-label">SSS</label>
-                                    <input type="text" class="form-control  " id="sss" name="esssss" />
+                                    <label for="e-1-employee-sss" class="control-label">SSS</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-sss" name="e-1-employee-sss" />
                                 </div>
                             </div>
                             <div class="col-md-2 col-sm-2">
                                 <div class="form-group label-floating">
-                                    <label for="tin" class="control-label">TIN</label>
-                                    <input type="text" class="form-control  " id="tin" name="esstin" />
+                                    <label for="e-1-employee-tin" class="control-label">TIN</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-tin" name="ee-1-employee-tin" />
                                 </div>
                             </div>
                             <div class="col-md-2 col-sm-2">
                                 <div class="form-group label-floating">
-                                    <label for="umid" class="control-label">UMID</label>
-                                    <input type="text" class="form-control  " id="umid" name="essumid" />
+                                    <label for="e-1-employee-umid" class="control-label">UMID</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-umid" name="e-1-employee-umid" />
                                 </div>
                             </div>
                             <div class="col-md-2 col-sm-2">
                                 <div class="form-group label-floating">
-                                    <label for="phic" class="control-label">PHIC</label>
-                                    <input type="text" class="form-control  " id="phic" name="essphic" />
+                                    <label for="e-1-employee-phic" class="control-label">PHIC</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-phic" name="e-1-employee-phic" />
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <hr />
                             <h4>Dependent</h4>
-                            <div class="col-md-2 col-sm-4">
+                            <div class="col-md-3 col-sm-4">
                                 <div class="form-group label-floating">
-                                    <label for="dfn" class="control-label">Firstname</label>
-                                    <input type="text" class="form-control  " id="dfn" name="essdfirstname" />
+                                    <label for="e-1-employee-dfn" class="control-label">Firstname</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-dfn" name="e-1-employee-dfn" />
                                 </div>
                             </div>
                             <div class="col-md-1 col-sm-1">
                                 <div class="form-group label-floating">
-                                    <label for="dmi" class="control-label">MI</label>
-                                    <input type="text" class="form-control  " id="dmi" name="essdmiddleinitial" />
+                                    <label for="e-1-employee-dmi" class="control-label">MI</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-dmi" name="e-1-employee-dmi" />
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-7">
+                            <div class="col-md-6 col-sm-7">
                                 <div class="form-group label-floating">
-                                    <label for="dln" class="control-label">Last Name</label>
-                                    <input type="text" class="form-control  " id="dln" name="essdlastname" />
+                                    <label for="e-1-employee-dln" class="control-label">Last Name</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-dln" name="e-1-employee-dln" />
                                 </div>
                             </div>
-                            <div class="col-md-2 col-sm-6">
-                                <div class="form-group label-floating">
-                                    <label for="dcontactno" class="control-label">Contact Number</label>
-                                    <input type="text" class="form-control  " id="dcontactno" name="essdcontactno" />
-                                </div>
-                            </div>
+                        </div>
+                        <div class="row">
                             <div class="col-md-4 col-sm-6">
                                 <div class="form-group label-floating">
-                                    <label for="demailaddress" class="control-label">Email Address</label>
-                                    <input type="text" class="form-control  " id="demailaddress" name="essdemailaddress" />
+                                    <label for="e-1-employee-dcontactno" class="control-label">Contact Number</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-dcontactno" name="e-1-employee-dcontactno" />
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group label-floating">
+                                    <label for="e-1-employee-demail" class="control-label">Email Address</label>
+                                    <input type="text" class="form-control  " id="e-1-employee-demail" name="e-1-employee-demail" />
                                 </div>
                             </div>
                         </div>

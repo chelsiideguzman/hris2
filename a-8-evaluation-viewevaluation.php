@@ -15,6 +15,7 @@
             <section class="row">
                 <?php include'a-sidenav.php' ?>
                 <article class="col-md-10 col-sm-10 p20">
+                    <button type="button" name="button" class=" btn btn-primary btn-raised" onclick="goBack();"><i class="fa fa-chevron-left"></i>&nbsp; Back</button>
                     <div class="titleh">
                         <h3>Employee Evaluation</h3>
                     </div>
@@ -61,8 +62,8 @@
                         </div>
                         <div class="col-md-1 col-sm-12 text-center">
                             <br />
-                            <i class="fa fa-arrow-right employeeicon"></i><br />
-                            <i class="fa fa-arrow-right employeeicon"></i>
+                            <i class="fa fa-arrow-right"></i><br />
+                            <i class="fa fa-arrow-right"></i>
                         </div>
                         <div class="col-md-7 col-sm-12">
                             <div id="myTabContent" class="tab-content">

@@ -1,5 +1,4 @@
 <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js" charset="utf-8"></script>
-<script src="js/dropdown/jquery.dropdown.js"></script>
 <script src="js/timepicker/timedropper.min.js" charset="utf-8"></script>
 <script src="js/bootstrap-datepicker.min.js" charset="utf-8"></script>
 
@@ -10,12 +9,18 @@ function goBack() {
     $.material.init();
     $("#a-3-workinghours-fromtime").timeDropper();
     $("#a-3-workinghours-totime").timeDropper();
-    $("#a-6-aboutus-fromtime1").timeDropper();
-    $("#a-6-aboutus-totime1").timeDropper();
-    $("#a-6-aboutus-fromtime2").timeDropper();
-    $("#a-6-aboutus-totime2").timeDropper();
-    $("#a-6-aboutus-fromtime3").timeDropper();
-    $("#a-6-aboutus-totime3").timeDropper();
+    $("#a-6-aboutus-fromtime1n").timeDropper();
+    $("#a-6-aboutus-totime1n").timeDropper();
+    $("#a-6-aboutus-fromtime2n").timeDropper();
+    $("#a-6-aboutus-totime2n").timeDropper();
+    $("#a-6-aboutus-fromtime3n").timeDropper();
+    $("#a-6-aboutus-totime3n").timeDropper();
+    $("#a-6-aboutus-fromtime1e").timeDropper();
+    $("#a-6-aboutus-totime1e").timeDropper();
+    $("#a-6-aboutus-fromtime2e").timeDropper();
+    $("#a-6-aboutus-totime2e").timeDropper();
+    $("#a-6-aboutus-fromtime3e").timeDropper();
+    $("#a-6-aboutus-totime3e").timeDropper();
     $('#sandbox-container #u-1-recruitment-dateposted').datepicker({
         autoclose: true,
         todayHighlight: true
@@ -80,23 +85,27 @@ function goBack() {
         autoclose: true,
         todayHighlight: true
     });
-    $('#sandbox-container #h-1-vacancy-fromdate1').datepicker({
+    $('#sandbox-container #h-1-vacancies-fromdate1').datepicker({
         autoclose: true,
         todayHighlight: true
     });
-    $('#sandbox-container #h-1-vacancy-todate1').datepicker({
+    $('#sandbox-container #h-1-vacancies-todate1').datepicker({
         autoclose: true,
         todayHighlight: true
     });
-    $('#sandbox-container #h-1-vacancy-fromdate2').datepicker({
+    $('#sandbox-container #h-1-vacancies-fromdate2').datepicker({
         autoclose: true,
         todayHighlight: true
     });
-    $('#sandbox-container #h-1-vacancy-todate2').datepicker({
+    $('#sandbox-container #h-1-vacancies-todate2').datepicker({
         autoclose: true,
         todayHighlight: true
     });
-    $('#sandbox-container #h-2-employee-bday').datepicker({
+    $('#sandbox-container #h-2-employee-bday1').datepicker({
+        autoclose: true,
+        todayHighlight: true
+    });
+    $('#sandbox-container #h-2-employee-bday2').datepicker({
         autoclose: true,
         todayHighlight: true
     });
@@ -116,9 +125,13 @@ function goBack() {
         autoclose: true,
         todayHighlight: true
     });
-    $(document).ready(function() {
-        $("#e-1-department").dropdown();
-        $("#e-1-branchname").dropdown();
-        $("#e-1-gender").dropdown();
+    $('#sandbox-container #a-4-payroll-fromdate').datepicker({
+        autoclose: true,
+        todayHighlight: true
     });
+    $('#sandbox-container #a-4-payroll-todate').datepicker({
+        autoclose: true,
+        todayHighlight: true
+    });
+
 </script>

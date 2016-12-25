@@ -29,7 +29,7 @@
                             </div>
                             <div class="col-md-1 col-sm-1">
                                 <br /><br />
-                                <i class="fa fa-plus employeeicon"></i>
+                                <i class="fa fa-plus"></i>
                             </div>
                         </div>
                         <h4>Specific Questions &nbsp;<button type="button" name="button" class="btn btn-primary">Add Job Title</button></h4>
@@ -45,16 +45,30 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-11 col-sm-11">
-                                <div class="form-group label-floating">
+                        <div class="row" id="textboxContainer">
+                            <div class="col-md-12 col-sm-12">
+                                <div id="" class="form-group label-floating">
                                     <label for="a-8-customevaluation-q1" class="control-label">Question No. 1</label>
-                                    <input type="text" class="form-control" id="a-8-customevaluation-q1" name="a-8-customevaluation-q1">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="a-8-customevaluation-q1" name="a-8-customevaluation-q1">
+                                        <div class="input-group-addon"><i class="fa fa-plus"></i></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-1 col-sm-1">
-                                <br /><br />
-                                <i class="fa fa-plus employeeicon"></i>
+                            <div class="col-md-12 col-sm-12">
+
+                                <input type="hidden" name="count" value="1" />
+                                        <div class="control-group" id="fields">
+                                            <label class="control-label" for="field1"></label>
+                                            <div class="controls" id="profs">
+                                                <form class="input-append">
+                                                    <div id="field">
+                                                            <input autocomplete="off" class="input form-control" id="field1" name="prof1" type="text" data-items="8"/>
+                                                            <button id="b1" class="btn add-more" type="button"><i class="fa fa-plus"></i></button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
                             </div>
                         </div>
 
@@ -77,6 +91,37 @@
     </div>
     <!--wrap-->
     <?php include'all/script.php' ?>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        var next = 1;
+        $(".add-more").click(function(e){
+            e.preventDefault();
+            var addto = "#field" + next;
+            var addRemove = "#field" + (next);
+            next = next + 1;
+            var newIn = '<input autocomplete="off" class="input form-control" id="field' + next + '" name="field' + next + '" type="text">';
+            var newInput = $(newIn);
+            var removeBtn = '<button id="remove' + (next - 1) + '" class="btn btn-danger remove-me" ><i class="fa fa-minus"></i></button></div><div id="field">';
+            var removeButton = $(removeBtn);
+            $(addto).after(newInput);
+            $(addRemove).after(removeButton);
+            $("#field" + next).attr('data-source',$(addto).attr('data-source'));
+            $("#count").val(next);
+
+                $('.remove-me').click(function(e){
+                    e.preventDefault();
+                    var fieldNum = this.id.charAt(this.id.length-1);
+                    var fieldID = "#field" + fieldNum;
+                    $(this).remove();
+                    $(fieldID).remove();
+                });
+        });
+
+
+
+    });
+
+    </script>
 </body>
 
 </html>

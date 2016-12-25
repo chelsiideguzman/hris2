@@ -34,7 +34,7 @@
                     <div class="row p20">
                       <div class="card">
                         <div class="card-block">
-                            <ul class="nav nav-tabs" style="margin-bottom: 15px;">
+                            <ul class="nav nav-tabs">
                               <li class="nav-item"><a class="nav-link active" href="#restaurant" data-toggle="tab">Restaurant</a></li>
                               <li class="nav-item"><a class="nav-link" href="#department" data-toggle="tab">Department</a></li>
                               <li class="nav-item"><a class="nav-link" href="#jobbtitle" data-toggle="tab">Job Title</a></li>
@@ -44,8 +44,8 @@
                                   <div class="row">
                                       <div class="col-md-12 col-sm-12">
                                           <div class="form-group label-floating">
-                                              <label for="a-1-aboutus-restaurantsubheading">Restaurant Sub-Heading</label>
-                                              <input type="text" class="form-control" id="a-1-aboutus-restaurantsubheading">
+                                              <label for="a-1-aboutus-restaurantsubheading" class="control-label">Restaurant Sub-Heading</label>
+                                              <input type="text" class="form-control" id="a-1-aboutus-restaurantsubheading" name="a-1-aboutus-restaurantsubheading">
                                           </div>
                                       </div>
                                   </div>
@@ -75,7 +75,7 @@
                                       </table>
                                   </div>
                                   <div class="row">
-                                      <div class="col-md-12">
+                                      <div class="col-md-12 col-sm-12">
                                           <nav aria-label="Page navigation" class="text-center">
                                               <ul class="pagination">
                                                   <li>
@@ -119,7 +119,7 @@
                                       </table>
                                   </div>
                                   <div class="row">
-                                      <div class="col-md-12">
+                                      <div class="col-md-12 col-sm-12">
                                           <nav aria-label="Page navigation" class="text-center">
                                               <ul class="pagination">
                                                   <li>
@@ -163,7 +163,7 @@
                                       </table>
                                   </div>
                                   <div class="row">
-                                      <div class="col-md-12">
+                                      <div class="col-md-12 col-sm-12">
                                           <nav aria-label="Page navigation" class="text-center">
                                               <ul class="pagination">
                                                   <li>

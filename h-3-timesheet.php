@@ -24,25 +24,25 @@
                         <div class="tabletopright pull-right">
                             <div class="dropdown">
                                 <button class="btn btn-primary btn-raised dropdown-toggle" type="button" id="advancedsearch" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Advanced Search &nbsp; <span class="caret"></span></button>
-                                <ul class="dropdown-menu" aria-labelledby="advancedsearch">
+                                <ul class="dropdown-menu col-md-12 col-sm-12" aria-labelledby="advancedsearch">
                                     <li>
                                         <form class="" action="" method="post">
                                             <div class="p20">
                                                 <div class="form-group label-floating">
-                                                    <label for="empeid" class="control-label">Employee ID</label>
-                                                    <input type="text" class="form-control" id="empeid" name="empeid" />
+                                                    <label for="h-3-timesheet-search-empid" class="control-label">Employee ID</label>
+                                                    <input type="text" class="form-control" id="h-3-timesheet-search-empid" name="h-3-timesheet-search-empid" />
                                                 </div>
                                             </div>
                                             <div class="p20">
                                                 <div class="form-group label-floating">
-                                                    <label for="empname" class="control-label">Name</label>
-                                                    <input type="text" class="form-control" id="empname" name="empname" />
+                                                    <label for="h-3-timesheet-search-name" class="control-label">Name</label>
+                                                    <input type="text" class="form-control" id="h-3-timesheet-search-name" name="h-3-timesheet-search-name" />
                                                 </div>
                                             </div>
                                             <div class="p20">
                                                 <div class="form-group">
-                                                    <label for="empjobtitle">Job Title</label>
-                                                    <select id="empjobtitle" class="form-control" name="empjobtitle">
+                                                    <label for="h-3-timesheet-search-jobtitle">Job Title</label>
+                                                    <select id="h-3-timesheet-search-jobtitle" class="form-control" name="h-3-timesheet-search-jobtitle">
                                                         <option>A</option>
                                                         <option>B</option>
                                                         <option>C</option>
@@ -51,8 +51,8 @@
                                             </div>
                                             <div class="p20">
                                                 <div class="form-group">
-                                                    <label for="recvdepartment">Department</label>
-                                                    <select id="recvdepartment" class="form-control" name="recvdepartment">
+                                                    <label for="h-3-timesheet-search-department">Department</label>
+                                                    <select id="rh-3-timesheet-search-department" class="form-control" name="h-3-timesheet-search-department">
                                                         <option>A</option>
                                                         <option>B</option>
                                                         <option>C</option>
@@ -61,8 +61,8 @@
                                             </div>
                                             <div class="p20">
                                                 <div class="form-group">
-                                                    <label for="recvbranchname">Branch Name</label>
-                                                    <select id="recvbranchname" class="form-control" name="recvbranchname">
+                                                    <label for="h-3-timesheet-search-branchname">Branch Name</label>
+                                                    <select id="h-3-timesheet-search-branchname" class="form-control" name="h-3-timesheet-search-branchname">
                                                         <option>A</option>
                                                         <option>B</option>
                                                         <option>C</option>
@@ -142,7 +142,7 @@
                         </table>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 col-sm-12">
                             <nav aria-label="Page navigation" class="text-center">
                                 <ul class="pagination">
                                     <li>

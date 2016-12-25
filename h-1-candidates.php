@@ -21,19 +21,18 @@
                     </div>
                     <div class="tabletop">
                         <div class="tabletopleft pull-left">
-                            <br />
                             <button type="button" name="button" class="btn btn-primary btn-raised " data-toggle="modal" data-target="#newcandidate">New Candidate</button>
                         </div>
                         <div class="tabletopright pull-right">
                             <div class="dropdown">
-                                <button class="btn btn-primary btn-raised dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Advanced Search &nbsp; <span class="caret"></span></button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                    <li>
-                                        <form class="" action="index.html" method="post">
+                                <button class="btn btn-primary btn-raised dropdown-toggle" type="button" id="advancedsearch" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Advanced Search &nbsp; <span class="caret"></span></button>
+                                <ul class="dropdown-menu col-md-12 col-sm-12" aria-labelledby="advancedsearch">
+                                    <li class="">
+                                        <form class="" action="" method="post">
                                             <div class="p20">
                                                 <div class="form-group">
-                                                    <label for="recvjobtitle">Job Title</label>
-                                                    <select id="recvjobtitle" class="form-control" name="recvjobtitle">
+                                                    <label for="h-1-candidates-search-jobtitle">Job Title</label>
+                                                    <select id="h-1-candidates-search-jobtitle" class="form-control" name="h-1-candidates-search-jobtitle">
                                                         <option>A</option>
                                                         <option>B</option>
                                                         <option>C</option>
@@ -42,8 +41,8 @@
                                             </div>
                                             <div class="p20">
                                                 <div class="form-group">
-                                                    <label for="recvdepartment">Department</label>
-                                                    <select id="recvdepartment" class="form-control" name="recvdepartment">
+                                                    <label for="h-1-candidates-search-department">Department</label>
+                                                    <select id="h-1-candidates-search-department" class="form-control" name="h-1-candidates-search-department">
                                                         <option>A</option>
                                                         <option>B</option>
                                                         <option>C</option>
@@ -52,8 +51,8 @@
                                             </div>
                                             <div class="p20">
                                                 <div class="form-group">
-                                                    <label for="recvbranchname">Branch Name</label>
-                                                    <select id="recvbranchname" class="form-control" name="recvbranchname">
+                                                    <label for="h-1-candidates-search-branchname">Branch Name</label>
+                                                    <select id="h-1-candidates-search-branchname" class="form-control" name="h-1-candidates-search-branchname">
                                                         <option>A</option>
                                                         <option>B</option>
                                                         <option>C</option>
@@ -62,8 +61,8 @@
                                             </div>
                                             <div class="p20">
                                                 <div class="form-group">
-                                                    <label for="recvstatus">Status</label>
-                                                    <select id="recvstatus" class="form-control" name="recvstatus">
+                                                    <label for="h-1-candidates-search-status">Status</label>
+                                                    <select id="h-1-candidates-search-status" class="form-control" name="h-1-candidates-search-status">
                                                         <option>Active</option>
                                                         <option>Inactive</option>
                                                     </select>
@@ -118,7 +117,7 @@
                         </table>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 col-sm-12">
                             <nav aria-label="Page navigation" class="text-center">
                                 <ul class="pagination">
                                     <li>

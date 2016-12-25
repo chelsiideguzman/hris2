@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
 <!--Custom-->
-<link rel="stylesheet" href="css/bb.css" />
+<link rel="stylesheet" href="css/b.css" />
 <script src="js/realtime.js" charset="utf-8"></script>
 
 <!--Material Design-->
@@ -24,6 +24,3 @@
 
 <!--Time Picker-->
 <link rel="stylesheet" href="css/timepicker/timedropper.min.css">
-
-<!--Dropdown-->
-<link rel="stylesheet" href="css/dropdown/jquery.dropdown.css">
