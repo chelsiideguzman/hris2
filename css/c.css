@@ -63,11 +63,7 @@ a:hover {
     width: 150px;
     /*    overflow: hidden;*/
 
-    background-color: #fff;
-}
-
-.navbar-brand:hover {
-    background-color: #fff;
+/*    background-color: #fff;*/
 }
 
 .navbar-brand img {
@@ -158,8 +154,11 @@ a:hover {
 }
 .confirmation {
     height: 350px;
-    vertical-align: middle;
-}
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: auto;
+  }
 
 .confirmationtext {
     font-size: 60px;
@@ -224,12 +223,11 @@ i[class="fa fa-arrow-right"] {
 }
 
 .featuresgray {
-    background-color: #DCE1DE;
+    background-color: #f7f7f7;
 }
 
-.p200top {
-    text-align: center;
-    padding-top: 200px;
+.p100 {
+    padding: 100px 100px;
 }
 
 .p15020 {
@@ -237,15 +235,28 @@ i[class="fa fa-arrow-right"] {
 }
 .intro {
     color: #fff;
+}
+.intro h1 {
     font-size: 60px;
     font-weight: 800;
-    font-family: 'Alegreya';
     line-height: normal;
+    letter-spacing: 3px;
+}
+.intro p {
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+.introsub h1 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.smallimg {
+  height: 50px;
 }
 
 .medimg {
   height: 100px;
-margin: 0 auto;
 }
 .bigimg {
   height: 130px;

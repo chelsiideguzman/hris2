@@ -604,3 +604,98 @@
     </div>
 </div>
 <!--Modal-->
+
+<!--Login Modal-->
+<div class="modal fade bs-example-modal-sm" id="login" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title text-center" id="myModalLabel">Log In</h3>
+            </div>
+            <div class="modal-body">
+                <form class="" action="" method="post">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-group label-floating">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                    <label for="a-6-aboutus-login-empid" class="control-label">Employee ID</label>
+                                    <input type="text" class="form-control" id="a-6-aboutus-login-empid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-group label-floating">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                    <label for="a-6-aboutus-login-pw" class="control-label">Password</label>
+                                    <input type="text" class="form-control" id="a-6-aboutus-login-pw">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-group label-floating">
+                                <div class="checkbox">
+                                    <label>
+                                    <input type="checkbox" value="">
+                                     Remember Me?
+                                  </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <button type="submit" class="btn btn-primary btn-raised btn-block">Login</button>
+                        </div>
+                    </div>
+            </div>
+            </form>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--Modal-->
+<!--Restaurant Modal-->
+<div class="modal fade bs-example-modal-lg" id="restaurantmodal" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title text-center" id="myModalLabel">Restaurant Name</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row p20">
+                    <div class="restaurantimg"></div>
+                    <br />
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="clearfix">
+                        <div class="pull-left">
+                            <a href=""><i class="fa fa-facebook"></i> &nbsp; <i class="fa fa-twitter"></i> &nbsp; <i class="fa fa-instagram"></i> </a>
+                        </div>
+                        <div class="pull-right">
+                            <small class="text-muted">For Reservations: Call <span>000-0000</span></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </form>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--Modal-->

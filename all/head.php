@@ -9,12 +9,14 @@
 <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
 <!--Custom-->
-<link rel="stylesheet" href="css/bbbb.css" />
+<link rel="stylesheet" href="css/c.css" />
+<link rel="stylesheet" href="css/snippets.css" />
 <script src="js/realtime.js" charset="utf-8"></script>
 
 <!--Material Design-->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="css/materialdesign/bootstrap-material-design.css">
+<link rel="stylesheet" href="css/materialdesign/bootstrap-material-design2.css">
 <link rel="stylesheet" href="css/materialdesign/ripples.css">
 <script src="js/materialdesign/material.js" charset="utf-8"></script>
 <script src="js/materialdesign/ripples.js" charset="utf-8"></script>

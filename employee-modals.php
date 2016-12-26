@@ -45,7 +45,7 @@
                             <div class="row">
                                 <span class="col-sm-3 labeltext">Birthday</span>
                                 <span class="col-sm-3"><i class="text-warning">Lorem Ipsum</i></span>
-                                <span class="col-sm-3 labeltext">Gender</span>
+                                <span class="col-sm-3 labeltext">Sex</span>
                                 <span class="col-sm-3"><i class="">Lorem Ipsum</i></span>
                             </div>
                             <div class="row">
@@ -139,7 +139,7 @@
                             <div class="row">
                                 <span class="col-sm-3 labeltext">Birthday</span>
                                 <span class="col-sm-3"><i>Lorem Ipsum</i></span>
-                                <span class="col-sm-3 labeltext">Gender</span>
+                                <span class="col-sm-3 labeltext">Sex</span>
                                 <span class="col-sm-3"><i>Lorem Ipsum</i></span>
                             </div>
                             <div class="row">
@@ -315,8 +315,8 @@
                     <div class="row">
                         <div class="col-md-2 col-sm-3">
                             <div class="form-group">
-                                <label for="h-2-employee-gender1">Gender</label>
-                                <select id="h-2-employee-gender1" class="form-control  " name="h-2-employee-gender1">
+                                <label for="h-2-employee-sex1">Sex</label>
+                                <select id="h-2-employee-sex1" class="form-control  " name="h-2-employee-sex1">
                                 <option>Male</option>
                                 <option>Female</option>
                             </select>
@@ -537,8 +537,8 @@
                     <div class="row">
                         <div class="col-md-2 col-sm-3">
                             <div class="form-group">
-                                <label for="h-2-employee-gender2">Gender</label>
-                                <select id="h-2-employee-gender2" class="form-control  " name="h-2-employee-gender2">
+                                <label for="h-2-employee-sex2">Sex</label>
+                                <select id="h-2-employee-sex2" class="form-control  " name="h-2-employee-sex2">
                                 <option>Male</option>
                                 <option>Female</option>
                             </select>

@@ -123,8 +123,8 @@
                         <div class="row">
                             <div class="col-md-2 col-sm-3">
                                 <div class="form-group">
-                                    <label for="e-1-employee-gender">Gender</label>
-                                    <select id="e-1-employee-gender" class="form-control" name="e-1-employee-gender">
+                                    <label for="e-1-employee-sex">Sex</label>
+                                    <select id="e-1-employee-sex" class="form-control" name="e-1-employee-sex">
                                     <option>Male</option>
                                     <option>Female</option>
                                 </select>

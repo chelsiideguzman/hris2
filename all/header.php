@@ -148,24 +148,31 @@
 </script>
 
 <!--Sign out Modal-->
-<div class="modal fade" id="signout" tabindex="-1" role="dialog" aria-labelledby="signout">
-    <div class="modal-dialog" role="document">
+<div class="modal fade bs-example-modal-sm" id="signout" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog modal-sm" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h3 class="modal-title text-center" id="myModalLabel">Are you sure you want to sign out?</h3>
+            <div class="modal-header"></div>
+            <div class="modal-body">
+                <div class="row p20">
+                    <h4 class="text-muted">
+                        Sign out?
+                    </h4>
+                </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="pull-right">
+                                <button type="submit" class="btn btn-primary">Cancel</button>
+                                <button type="button" class="btn btn-primary">Discard</button>
+                            </div>
+                        </div>
+                    </div>
             </div>
-            <div class="modal-body text-center">
-                <button type="button" class="btn btn-primary btn-raised">Sign Out</button>
-                <button type="button" class="btn btn-primary btn-raised">Cancel</button>
-            </div>
-            <div class="modal-footer">
-
-            </div>
+            <div class="modal-footer"></div>
         </div>
     </div>
 </div>
 <!--Modal-->
+
 <!--Password Modal-->
 <div class="modal fade" id="password" tabindex="-1" role="dialog" aria-labelledby="password">
     <div class="modal-dialog" role="document">
@@ -261,6 +268,7 @@
     </div>
 </div>
 <!--Modal-->
+
 <nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">

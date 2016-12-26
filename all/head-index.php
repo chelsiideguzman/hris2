@@ -9,19 +9,20 @@
 <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
 <!--Custom-->
-<link rel="stylesheet" href="css/aaaa.css" />
+<link rel="stylesheet" href="css/c.css" />
+<script src="js/realtime.js" charset="utf-8"></script>
 
 <!--Material Design-->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="css/sample.css" />
-<!--link rel="stylesheet" href="css/material.min.css" /-->
-<script src="js/material.min.js"></script>
+<!--link rel="stylesheet" href="css/materialdesign/bootstrap-material-design.css">
+<link rel="stylesheet" href="css/materialdesign/ripples.css">
+<script src="js/materialdesign/material.js" charset="utf-8"></script>
+<script src="js/materialdesign/ripples.js" charset="utf-8"></script-->
+<link rel="stylesheet" href="material.css">
+<script src="material.js" charset="utf-8"></script>
 
 <!--Date Picker-->
 <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
 
 <!--Time Picker-->
 <link rel="stylesheet" href="css/timepicker/timedropper.min.css">
-
-<!--Dropdown-->
-<link rel="stylesheet" href="css/dropdown/jquery.dropdown.css">
